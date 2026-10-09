@@ -19,6 +19,7 @@
 # ---- 2. root files: environment and docs ---------------------------------
 !/.gitignore
 !/README.md
+!/LICENSE
 !/requirements.txt
 !/.python-version
 

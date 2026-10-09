@@ -2,7 +2,7 @@
 
 Code and results for the PhD thesis chapter on forecasting the global
 anthropogenic zinc cycle with universal differential equations (Chapter 5; Appendix K),
-together with the experiments taken up in the thesis discussion (Chapter 6).
+together with the experiments that may be taken up in the thesis discussion (Chapter 6).
 
 The model is a mass-conserving, continuous-time system of ODEs whose transfer
 coefficients are produced by a neural network from exogenous drivers
@@ -103,6 +103,13 @@ python reproducibility/figures/make_ch4_figures.py --check
 python reproducibility/figures/make_ch4_figures.py                    # all figures
 ```
 
-After a restore with the dataset, every figure is identical to the printed one.
-Without the dataset every figure still builds; Figures 1, 2 and 4 then lack the
+Without the dataset every published figure still builds; Figures 1, 2 and 4 then lack the
 observed points, and Figures 5-8 are unaffected.
+
+## Licence
+
+Code: PolyForm Noncommercial License 1.0.0. Figures, results and
+documentation: CC BY-NC 4.0, the licence of the thesis. Research, teaching and
+other non-commercial use is free; commercial use needs a separate licence from
+the author. Third-party data stay under their owners' terms. See
+[`LICENSE`](LICENSE).
