@@ -1,0 +1,3 @@
+prediction,base_n_survives,cp_n_survives,base_sign_agreement,cp_sign_agreement,base_median_abs_hl,cp_median_abs_hl,magnitude_ratio,held,base_hl,base_lo,base_hi,base_survives,cp_hl,cp_lo,cp_hi,cp_survives
+P1,2.0,1.0,6.0,3.0,7.549429742835439e-05,0.00027025970583071757,3.5798691429269804,False,,,,,,,,
+P2,,,,,,,,True,0.32834571076932384,-0.36241090309585444,0.8651284868263964,False,-0.37742649437610465,-0.4756347962175475,-0.26547401387121616,True

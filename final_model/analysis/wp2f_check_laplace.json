@@ -1,0 +1,106 @@
+{
+  "exog_cols": [
+    "Zinc real price",
+    "Energy index",
+    "GDP",
+    "US Industrial Production Total Index",
+    "EU28 Industrial Production Total Index",
+    "China All Industry Value Added (Constant 2015 USD)",
+    "Producer Price Index of Non-ferrous Scrap",
+    "Real Treatment Charges",
+    "Precious metal index",
+    "Full metal real index",
+    "World Stock Market Capitalisation (% of GDP)",
+    "China Total Manufacturing Output",
+    "Population"
+  ],
+  "n_universe": 13,
+  "orders": [
+    0,
+    1
+  ],
+  "input_dim": 31,
+  "n_exog_features": 26,
+  "years": [
+    1980.0,
+    2019.0
+  ],
+  "T": 40,
+  "alpha_names": [
+    "alpha_cc",
+    "alpha_refc",
+    "alpha_win",
+    "alpha_dr"
+  ],
+  "tau_sup_names": [
+    "tau_ref",
+    "tau_waelz",
+    "tau_olds",
+    "tau_diss",
+    "frac_fu_new",
+    "frac_fu_loss",
+    "frac_eu_new",
+    "frac_eu_loss"
+  ],
+  "patches": [],
+  "ode_state_names": [
+    "S_conc",
+    "S_ref",
+    "S_iu_short",
+    "S_iu_med",
+    "S_iu_long",
+    "S_scrap"
+  ],
+  "mu_cohorts": [
+    10.0,
+    20.0,
+    44.0
+  ],
+  "use_stock_input": false,
+  "pinned": {
+    "pin_frac_eu_loss": true,
+    "pin_frac_eu_new": false,
+    "pin_frac_fu_loss": true,
+    "pin_frac_fu_new": false,
+    "pin_tau_diss": true,
+    "pin_tau_olds": false,
+    "pin_tau_ref": true,
+    "pin_tau_waelz": true
+  },
+  "learn_cp": false,
+  "param_names": [
+    "alpha_cc",
+    "alpha_refc",
+    "alpha_win",
+    "alpha_dr",
+    "tau_ref",
+    "tau_waelz",
+    "tau_olds",
+    "tau_diss",
+    "frac_fu_new",
+    "frac_fu_loss",
+    "frac_fu_out",
+    "frac_eu_new",
+    "frac_eu_loss",
+    "frac_eu_into",
+    "f_cohort_10yr",
+    "f_cohort_20yr",
+    "f_cohort_44yr",
+    "mu_10yr",
+    "mu_20yr",
+    "mu_44yr"
+  ],
+  "n_param": 20,
+  "flow_functionals": {
+    "use_entry": "f_8 (upsilon)",
+    "oldscrap_metallurgy": "f_14",
+    "oldscrap_manufacture": "f_13",
+    "eol_collection": "f_9"
+  },
+  "extrapolation_rules": [
+    "hold",
+    "mean5",
+    "trend20",
+    "trend50"
+  ]
+}

@@ -1,0 +1,7 @@
+check,value
+assembly_max_abs_err,0.0
+anchor_dlam_conc_dalpha_cc_plus_1,1.1102230246251565e-16
+anchor_dlam_conc_dp_other_maxabs,0.0
+max_rel_err_dA_vs_fd,9.81922720857172e-10
+max_rel_err_dlambda_vs_fd,8.458900981494964e-08
+n_eigenvalues_complex,0.0

@@ -1,0 +1,53 @@
+driver,stock,memory_median_yr,q1,q3,hl,hl_lo,hl_hi,memory_abs_median_yr,peak_lag_median_yr,solver_floor_kt
+Zinc real price,Concentrate,8.5,3.0,12.75,8.25,6.75,10.25,17.5,1.0,0.0
+Zinc real price,Refined,2.0,2.0,2.0,2.0,2.0,2.0,16.5,0.0,0.0
+Zinc real price,In-Use,19.5,17.0,19.5,18.5,17.25,19.5,16.0,1.0,0.0
+Zinc real price,Scrap,6.0,5.0,6.5,5.75,5.25,6.25,16.5,1.0,0.0
+Energy index,Concentrate,7.5,5.25,11.0,7.625,6.5,9.25,17.5,0.0,0.0
+Energy index,Refined,2.0,2.0,2.0,2.0,2.0,2.0,17.0,0.0,0.0
+Energy index,In-Use,19.5,18.5,19.5,19.0,18.5,19.5,18.5,0.0,0.0
+Energy index,Scrap,5.0,4.0,5.75,4.75,4.5,5.0,17.0,0.0,0.0
+GDP,Concentrate,2.0,2.0,2.5,2.0,2.0,2.75,17.5,0.0,0.0
+GDP,Refined,2.0,2.0,2.0,2.0,2.0,2.0,17.0,0.0,0.0
+GDP,In-Use,19.5,16.0,19.5,18.0,14.25,19.0,18.5,1.0,0.0
+GDP,Scrap,5.0,3.0,5.5,4.5,4.0,5.0,14.5,0.0,0.0
+US Industrial Production Total Index,Concentrate,2.0,2.0,7.75,3.5,2.0,6.0,17.5,0.0,0.0
+US Industrial Production Total Index,Refined,2.0,1.0,2.0,1.5,1.5,2.0,17.0,1.0,0.0
+US Industrial Production Total Index,In-Use,18.5,17.25,19.5,18.5,17.25,19.0,9.0,1.0,0.0
+US Industrial Production Total Index,Scrap,4.5,3.5,5.25,4.5,4.0,5.0,13.5,0.0,0.0
+EU28 Industrial Production Total Index,Concentrate,8.5,4.25,11.5,8.25,6.5,10.0,17.5,0.0,0.0
+EU28 Industrial Production Total Index,Refined,2.0,2.0,2.0,2.0,2.0,2.0,16.5,1.0,0.0
+EU28 Industrial Production Total Index,In-Use,19.5,18.5,19.5,19.0,18.5,19.25,9.0,1.0,0.0
+EU28 Industrial Production Total Index,Scrap,5.0,4.5,6.0,5.0,4.5,5.5,13.0,1.0,0.0
+China All Industry Value Added (Constant 2015 USD),Concentrate,2.0,2.0,2.0,2.0,2.0,2.0,17.5,1.0,0.0
+China All Industry Value Added (Constant 2015 USD),Refined,2.0,2.0,2.0,2.0,2.0,2.25,17.5,0.0,0.0
+China All Industry Value Added (Constant 2015 USD),In-Use,19.0,13.25,19.5,16.5,14.5,18.5,19.5,1.0,0.0
+China All Industry Value Added (Constant 2015 USD),Scrap,5.0,4.0,6.0,5.0,4.75,5.5,19.0,1.0,0.0
+Producer Price Index of Non-ferrous Scrap,Concentrate,2.0,2.0,7.25,4.25,2.5,5.25,17.5,0.0,0.0
+Producer Price Index of Non-ferrous Scrap,Refined,2.0,1.0,2.0,1.5,1.5,2.0,16.5,0.0,0.0
+Producer Price Index of Non-ferrous Scrap,In-Use,19.5,18.75,19.5,19.5,18.25,19.5,19.0,1.0,0.0
+Producer Price Index of Non-ferrous Scrap,Scrap,5.0,4.0,5.25,4.5,4.0,5.0,15.5,1.0,0.0
+Real Treatment Charges,Concentrate,8.0,3.25,12.75,8.25,6.25,10.0,17.5,1.0,0.0
+Real Treatment Charges,Refined,2.0,2.0,2.0,2.0,2.0,2.0,16.5,0.0,0.0
+Real Treatment Charges,In-Use,19.5,18.0,19.5,19.0,17.75,19.5,11.0,1.0,0.0
+Real Treatment Charges,Scrap,4.0,3.0,5.0,4.0,3.5,4.5,14.0,1.0,0.0
+Precious metal index,Concentrate,2.0,2.0,2.0,2.0,2.0,2.0,17.5,1.0,0.0
+Precious metal index,Refined,2.0,2.0,2.25,2.0,2.0,2.25,17.0,1.0,0.0
+Precious metal index,In-Use,19.5,18.5,19.5,19.0,18.0,19.5,18.5,1.0,0.0
+Precious metal index,Scrap,6.0,4.75,6.0,5.5,5.0,6.0,17.5,1.0,0.0
+Full metal real index,Concentrate,9.5,5.75,12.5,9.25,7.75,11.0,17.5,0.5,0.0
+Full metal real index,Refined,2.0,1.0,2.0,1.5,1.5,2.0,16.5,0.0,0.0
+Full metal real index,In-Use,16.5,13.5,19.5,16.0,13.75,17.5,9.0,0.0,0.0
+Full metal real index,Scrap,4.0,3.0,4.0,3.5,3.25,4.0,13.5,1.0,0.0
+World Stock Market Capitalisation (% of GDP),Concentrate,5.0,2.0,9.0,5.75,4.0,7.0,17.5,0.0,0.0
+World Stock Market Capitalisation (% of GDP),Refined,2.0,2.0,2.0,2.0,1.5,2.0,16.5,1.0,0.0
+World Stock Market Capitalisation (% of GDP),In-Use,19.5,16.75,19.5,18.5,17.0,19.0,11.0,1.0,0.0
+World Stock Market Capitalisation (% of GDP),Scrap,5.0,5.0,6.0,5.5,5.0,5.5,14.5,1.0,0.0
+China Total Manufacturing Output,Concentrate,2.0,2.0,2.0,2.0,2.0,2.25,18.0,0.0,0.0
+China Total Manufacturing Output,Refined,2.0,2.0,2.0,2.0,1.5,2.0,17.5,0.0,0.0
+China Total Manufacturing Output,In-Use,19.5,14.5,19.5,17.0,16.0,18.75,19.5,0.0,0.0
+China Total Manufacturing Output,Scrap,5.0,4.0,6.0,5.0,4.5,5.25,19.5,1.0,0.0
+Population,Concentrate,6.5,3.0,13.25,8.125,6.0,10.0,17.0,0.0,0.0
+Population,Refined,2.0,1.5,2.0,2.0,1.5,2.0,17.0,0.0,0.0
+Population,In-Use,19.0,18.0,19.5,18.75,18.25,19.0,8.0,1.0,0.0
+Population,Scrap,5.0,3.75,6.0,4.5,4.0,5.5,13.0,1.0,0.0

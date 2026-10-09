@@ -1,0 +1,11 @@
+config,label,seed,rollout,component,relRMSE,MAPE
+baseline_gam,baseline_gam_nostockin,0,freerun,Concentrate,21.023557020705972,16.165905618524167
+baseline_gam,baseline_gam_nostockin,0,freerun,Refined,44.335172203442546,53.4081056161686
+baseline_gam,baseline_gam_nostockin,0,freerun,In-Use,6.945067589313748,6.644637798987091
+baseline_gam,baseline_gam_nostockin,0,freerun,Scrap,34.22217347793268,56.52101795604101
+baseline_gam,baseline_gam_nostockin,0,freerun,<stock-mean>,26.631492572848735,33.184916747430215
+baseline_gam,baseline_gam_nostockin,0,testrun,Concentrate,21.823023627057825,17.480431497186764
+baseline_gam,baseline_gam_nostockin,0,testrun,Refined,44.6864368344289,57.65023400660078
+baseline_gam,baseline_gam_nostockin,0,testrun,In-Use,2.7438975939508667,2.285187061374842
+baseline_gam,baseline_gam_nostockin,0,testrun,Scrap,34.8192851622884,60.012323376561675
+baseline_gam,baseline_gam_nostockin,0,testrun,<stock-mean>,26.018160804431496,34.35704398543102

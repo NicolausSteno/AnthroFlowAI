@@ -1,0 +1,4 @@
+check,value
+max_rel_err_dtau_vs_fd,2.5491489431861263e-09
+max_rel_err_dUpsilon_vs_fd,2.4099204849834914e-09
+term_decomposition_max_abs_residual,0.0

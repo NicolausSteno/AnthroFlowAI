@@ -1,0 +1,4 @@
+n_chain,discharge_mode_yr,discharge_mode_theory_yr,discharge_interior_maxima,stock_kernel_monotone,stock_interior_maxima,stock_kernel_lag26,mean_lifetime_yr,cohort_modes_yr
+1,0.0,0.0,[],True,[],0.38257091599930415,30.402765065297178,"[0.0, 0.0, 0.0]"
+5,12.290000000000001,,[12.29],True,[],0.48774020176615696,30.402765065297178,"[8.0, 16.0, 35.2]"
+33,19.400000000000002,,"[9.71, 19.4]",True,[],0.5113213329232902,30.402765065297178,"[9.7, 19.39, 42.67]"

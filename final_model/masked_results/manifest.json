@@ -1,0 +1,4208 @@
+{
+ "reference_keys": [
+  "stocks_obs",
+  "flows_obs",
+  "cp_obs",
+  "alpha_obs",
+  "tau_sup_obs",
+  "exog_values_full"
+ ],
+ "files": {
+  "anchor_v4/pred_seed0.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "8fb990658fa7d403a754c49b37986d5ea836095b6003370d0f4a4ecec9952c55",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "4a6b4d5d72176aa5d0842c473e723884187ee22db0f17da2be9cf052ae43c0a4",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed1.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "58dbb3c400e5af3e46735e34cde6d66c5798bc776a280daeedd7a397e5ed8a47",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "f46c6de221dfe5486be5a41d012efddd0c2542e8a34b3f89fb86f81093e12d33",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed10.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "6a600998a22bd5832860840a4fb4028543e4575c23d66fc69611df70115525a3",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "f63ba34b7d505b36c0d03815c8b5c7326ebfc7072e4cdcfebf88759f2d915abd",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed11.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "273339daf22cfa5669d4937830259349f8f06f518b3cf97ab38467811494bd6a",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "9f92c82ad178df98e1852524c9424d80cca5c8457134479888b0367d70bd7467",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed12.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "562a9875d0802ca8dfcd0b63ddf1ffa579239cfef63937ec707a363b8923aa25",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "2e9c7c00f676fa7f4b0c1953e36cdd5c5eb32c612a059508d3c905e3810d8f4e",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed13.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "0539e4d269cb46294ee55156a6061ee5da8ed5d5188c40fcacfa406ba3d9985f",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "1b7ef9a88f6f0db6177d244127574516d2bb7b3ac7bffb08d1d3cdf990790732",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed14.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "303e4b10d1d0c3ef08670cce92f9cd6cfe6ea0cfa481f8ee58cac42200dcdaac",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e11d9b91be0a86fe7383f0ad7830473bfd20e4a9c334fe68e07beb00ecb96457",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed15.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "2a0d21cec46b93c1332e5138b6d80cddab65f897bb6bb53e4965d68e27ef0e3c",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "fa0049d469280062c89410475c3d9d83831c04b44fda26300257c3c2a9eb3a33",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed16.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "fa56a2862b6c763b3668c62fa1142dfca081fedf1e160712965149ef742aed75",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "88d48340f958bd9cd533434854ed331465dc42db154c8e02d25f7f1b0cf081d5",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed17.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "88c9f432345b55dc4cba051d2fde5f95ee14643e29f22c9de80db014874521fc",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "0c081fa323ab30eb163b00146388ebdad99cdfc9916fd49e257022e0fe84e6a7",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed18.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e00e5da67ce937dcbc8e43d80f261dccfaa3a1991b4d36cbcc3325a2472aacd8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "a981d293a277429b3eaae345b684a9933df6d1b70c98c67d0528f76ceab33f5a",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed19.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "a62ea14a5260a4913e18622e850cf859201dbb9335b3be9a8378364a2df46f9d",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "3a91a55b2bba8178e62ad848c44b91901aeb8b7abfc894ad7cb4c14d056d5cfe",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed2.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "052fe98a6d56437bb624099699c9bd354d4f586c49570156f37a29d0198ad371",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "b3f3bc396d4d1299c02a5e5e1357100a5f52ea68ebc5c00d8f415348785044a4",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed20.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "635d5ef42e3869a845969ca02648c4cad34696d5f8a2af484e784dc9227ddf75",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "fbe646619784e4b3b89f7a77fd6d1be73faa60215f8a3300e79e706b5b1cad06",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed21.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "70a59e1d21dace47226ea8f600cc17385c0042f3a00ce4f52e71fcadc87bf486",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "fb408846031975677d9807029f4567ea3c4e66f78e890b026a7f5b783939a9aa",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed22.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "ce947df7bbd70889af7e89765ac7b5f02393f9144869aae9972e4bf32310c782",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "bf53512466ed128900a9ab02cfa2518620a5c268bd21b2d7f35b939e78840f7a",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed23.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "a64432b171a25778d5fcde362a644b14bf0e885aca3801ffabf6d22cc3d1cc26",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "3d926580eed5cdf5a612ada7daea1d2fda8bef3a788d4ae54221396a7c8f3c1f",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed24.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "bb6919ec6a4a7a06d56d03e72387c6463208e16cba7101f5548fbb72424e0efc",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "633b633d83d2ad64e673e480d5b6d92571b4d2e4362f558cc0ba4cee58c9fb4b",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed25.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "9169a6f3b4da488ccc8ad55132561c72cc04c2dea304de193a0ac8c631982c74",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "9f0c3808c79adb002b52f63ff2ab27e5a1de81afd3557713cafe6c056b904e3a",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed26.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e9d85175500d852dcc5db5a1597a94939235e9b1ddc357aae5e950e2ddce19c7",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "6d59afa14d52383819506628dec732ea67da4d2b1ddd9827d596c0e8ef82b772",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed27.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "c78393154ec1816c0bc29c9f276b2d596027506f6aedd2847fb81b85963c2b19",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "21026a5adde6196fcbb22d0f2b5ad11b4d25e85abcc65c40c414bec8530123dd",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed28.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "7053591f0be1d45e14341e491e116c6c0adc87d264ea67566dd4a56698c736de",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e3f93b3993b5923e518e22e9590cba6f73f1d1599c4b1d358e9c187fcff05e87",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed29.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "b6e51997cb8c7ef2da663f35182eed5182651c73e55e4c238954336de9f28ff6",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e01f6474383dae88bf10f060ce50b534bc5d79272b4bb950963ff5e0b9d6bcc9",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed3.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "f0bf90554a53b5c61f2d751db747224f42debb9487241c7e2d7652604211e3e2",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "d793bf42e76ac3f925c463890fb87a50c103c6af23f6e72e598778126f903614",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed30.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "e9f399a4c526e6ed60114e075e5a5a331627e1c701fd987ba622f7d4ab5643b2",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "cbab7d1970e5a9feeeef49dc1d00ddf2529cb30c9e25397b03a4cd3626e6a0d5",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed31.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "c743c24cdfa3cc3f8f1f9633861887654cae5a1dc58fcc9bf49c0d00b3eea915",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "04c597f59889168e45152dc2f1b0d8f5914092f2a159aaeb2e9df0806fbff031",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed32.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "95b486f725fcb35f3292cae04ae95763ca8359fedc8a9ae07c39f5056b20a261",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "77b321cddd9f3bc1f9b3dad298bfad460fbec7d936af5b111b885774990694f1",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed33.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "c9ca755e65a8b795bf007051d5dddfb64a36d5e9d798133ecf8590de4a837634",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "bcfee0e422915b240ceb56ae9ad449fe96dd5823fdea0390aabf9f8c0405596b",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed34.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "436335a062924450fe207cc581cc9787492b189df7be983ce5bc167c5df57f13",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "0fe00754402979e8647b4410c586e333dc4db45b4e225d1e8bc5da53374f4497",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed4.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "c10eb623c3b9697935c809bd74277b77da55c475e12abe5615dfa4798c56cb5a",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "68dea87959aa06d33244f44c48f3a390021f04b8761e56c1276a71d8278f897b",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed5.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "add88c3a7e588bbc6bb73a7f673cba0b5268d902dc2f9c0745b9e34d6626a0c9",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "74d8930d3ad25316b362c7e9101d04440095473b565a63c8eed9cc2c136af1a6",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed6.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "60350728b91eb2d796884d8a7193ec661e0af04e345df1963a2d693f8cd3dc47",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "eed829e8514be37d5e241638866eaad5185d9664c7102d125f72019cbbf775c2",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed7.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "ef88da19b4f2d578220435019c51df8f65c21a8c9740cffb667fa66477d9279e",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "621967be218a0901360a48960931efc269ce46a7e21ea4327086c21226191c42",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed8.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "b6ca465e2465b12890b93ec3c0cd4d2f189a64ca07d9dc4494d7dc5e5d6a59cf",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "8c8af7523fc1a86bca86cffff0c6581c5d55cce69b55c211b5cbd2e91c8acba1",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_v4/pred_seed9.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "33ac9f8337c1e4d2bc0a918013336476a0080b7a7dfad5a9587ef89a35d2dfb4",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "4700a01827727e1759cdabff4acd28cbcc22035c6f94b2af9466d9df3ac4829c",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "anchor_gam/pred_seed0.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred_B": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "8bb4a367dfab994cc1313dc83a15ce3fa8643b4c800f571bb3f8be86ea1d6dec",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 4
+    },
+    "flows_obs": {
+     "mode": "raw",
+     "n_masked": 702,
+     "recipe": null,
+     "sha256": "0a9e0baba86ea9481b507eb04fe8d8e0ad712f811d171645a6a32c3ec3ce7a2f",
+     "dtype": "float64",
+     "shape": [
+      39,
+      18
+     ],
+     "n_mapped": 702
+    },
+    "stocks_obs_testrun": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "sha256": "ee6c4d46e0c34b9a9049fa68c885756c7f5818b5ae4fc8c9505b51ee676ac68d",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 52
+    },
+    "S_pred_testrun": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "sha256": "d1cc554e6610658c65e7837b85e28a3db07830e379ad9e06c0278f0aabc25cbe",
+     "dtype": "float64",
+     "shape": [
+      13,
+      4
+     ],
+     "n_mapped": 4
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years_all",
+    "stocks_obs",
+    "S_pred_B",
+    "years_flow",
+    "flows_obs",
+    "F_pred_B",
+    "flow_names",
+    "years_test",
+    "years_testrun",
+    "stocks_obs_testrun",
+    "S_pred_testrun",
+    "F_pred_testrun"
+   ]
+  },
+  "analysis/wp10_chain_validation.csv": {
+   "fields": {
+    "numeric_mode_yr": {
+     "mode": "copies",
+     "n_masked": 1,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 1
+    },
+    "theory_mode_yr": {
+     "mode": "copies",
+     "n_masked": 1,
+     "recipe": null,
+     "column": 6,
+     "n_mapped": 1
+    }
+   },
+   "kind": "csv",
+   "sha256": "711b734fcc9fedfb89094dcb745447970ba85c19c2236d154f0800c0955f7e26"
+  },
+  "analysis/wp10_shape_counterfactual.npz": {
+   "fields": {
+    "stocks_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_exp": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "b74a28d9d4ffcbfdbb58176f686126b7b1417bc53d3e5079829c4f60f83d1035",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    },
+    "S_erl5": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "11e167ab47d8b0abe5b11016eedc13a38a4d71ee2b08455934b9836bfb804fe1",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    },
+    "S_erl33": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "dbacc41aed4e3ddab95a09a461fe435ec85cd75afa0e5672da0bff2de9adfdd4",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "arms",
+    "seeds",
+    "stocks_obs",
+    "S_exp",
+    "S_erl5",
+    "S_erl33",
+    "F_exp",
+    "F_erl5",
+    "F_erl33",
+    "C_exp",
+    "C_erl5",
+    "C_erl33"
+   ]
+  },
+  "analysis/wp1a_alpha_error_by_year.csv": {
+   "fields": {
+    "alpha_obs": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "column": 3,
+     "n_mapped": 52
+    },
+    "parent_stock_obs": {
+     "mode": "raw",
+     "n_masked": 52,
+     "recipe": null,
+     "column": 4,
+     "n_mapped": 52
+    }
+   },
+   "kind": "csv",
+   "sha256": "f13b2ee0e1a46f2f9f062021187757cdb71c76c23027b68d8b10bbc0fb287797"
+  },
+  "analysis/wp1f_mass_imbalance.csv": {
+   "fields": {
+    "imbalance_kt": {
+     "mode": "derived",
+     "n_masked": 192,
+     "recipe": "wp1f_imbalance",
+     "column": 3
+    },
+    "cumulative_imbalance_kt": {
+     "mode": "derived",
+     "n_masked": 192,
+     "recipe": "wp1f_imbalance",
+     "column": 4
+    },
+    "observed_stock_kt": {
+     "mode": "raw",
+     "n_masked": 192,
+     "recipe": null,
+     "column": 6,
+     "n_mapped": 192
+    },
+    "observed_stock_pct": {
+     "mode": "derived",
+     "n_masked": 192,
+     "recipe": "wp1f_imbalance",
+     "column": 7
+    }
+   },
+   "kind": "csv",
+   "sha256": "918fdf26767405b4abe8a74a69424756bebaa21c6adc775e5d2363554c2f4c42"
+  },
+  "analysis/wp2a_A_of_t.npz": {
+   "fields": {
+    "b": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "784e4dcbcceda7688b9308f737cba8b86ccd19a61e7d675822e8616c5b13dab4",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      6
+     ],
+     "n_mapped": 1400
+    },
+    "b_ode": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "b1929ccd602999b99e639ee40b86fac1230540247c63c5d5f79441ad765588ec",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      6
+     ],
+     "n_mapped": 1400
+    },
+    "rhs_residual_obs": {
+     "mode": "derived",
+     "n_masked": 8400,
+     "recipe": null,
+     "sha256": "26c299f0deeb9bddae4bd09b8e628879cfab7dfe65305624f05b9415b376ed7b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      6
+     ]
+    },
+    "taus": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "0ffd609a6fe24b419c2e9e75497178d722602001dbbf56c8ab3336f45c359267",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 1400
+    },
+    "frac_fu": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "dd7ccec8e6fce9f8a01f22aa075454d94ab4260c8bed55eb601d3655b8c54aa7",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      3
+     ],
+     "n_mapped": 1400
+    },
+    "frac_eu": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "beb8b5e8c35134e2111050f04b5a901aeca286b0ef25b22656797c5003100989",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      3
+     ],
+     "n_mapped": 1400
+    },
+    "cp": {
+     "mode": "copies",
+     "n_masked": 1400,
+     "recipe": null,
+     "sha256": "ff98daea2b49088a9f2d553e7b6432d3e62112bcd4d8292e987fe7376a79abb6",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40
+     ],
+     "n_mapped": 1400
+    },
+    "S_ode_pred": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "915e8204003b953e406680556fd009a7e2e6b3b40e86f3e8231f6defcdf49b07",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      6
+     ],
+     "n_mapped": 105
+    },
+    "S_pred": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "b74a28d9d4ffcbfdbb58176f686126b7b1417bc53d3e5079829c4f60f83d1035",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    },
+    "S_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "A",
+    "b",
+    "A_ode",
+    "b_ode",
+    "loss_rate",
+    "col_sum",
+    "col_sum_residual",
+    "rhs_residual_pred",
+    "rhs_residual_obs",
+    "alphas",
+    "taus",
+    "frac_fu",
+    "frac_eu",
+    "f_cohort",
+    "cp",
+    "S_ode_pred",
+    "S_pred",
+    "seeds",
+    "years",
+    "S_obs",
+    "mu_cohorts",
+    "ode_state_names",
+    "stock_names",
+    "alpha_names",
+    "tau_binary_names",
+    "mask_train",
+    "mask_val",
+    "mask_test"
+   ]
+  },
+  "analysis/wp2c_eigen_sensitivity.npz": {
+   "fields": {
+    "params": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "d93dc5a23e6329892ee4dcf7e56fb99220cd2090d9bada1d486ed5ecf718b72b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      20
+     ],
+     "n_mapped": 4200
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "mu_cohorts",
+    "state_names",
+    "param_names",
+    "params",
+    "dA_dparams",
+    "lam_state",
+    "dlambda_state",
+    "elas_timescale",
+    "cond_state",
+    "relgap_state",
+    "simple_ok",
+    "mode_label",
+    "dominant_mode",
+    "source_md5",
+    "relgap_min",
+    "cond_max"
+   ]
+  },
+  "analysis/wp2e_indicator_sensitivity.npz": {
+   "fields": {
+    "params": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "d93dc5a23e6329892ee4dcf7e56fb99220cd2090d9bada1d486ed5ecf718b72b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      20
+     ],
+     "n_mapped": 4200
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "mu_cohorts",
+    "state_names",
+    "param_names",
+    "flow_names",
+    "params",
+    "N_frozen",
+    "tau_frozen",
+    "dtau_dparams",
+    "elas_tau",
+    "elas_upsilon",
+    "source_md5",
+    "count_frozen_use_entry",
+    "dcount_dparams_use_entry",
+    "term_direct_use_entry",
+    "term_propagated_use_entry",
+    "count_frozen_oldscrap_metallurgy",
+    "dcount_dparams_oldscrap_metallurgy",
+    "term_direct_oldscrap_metallurgy",
+    "term_propagated_oldscrap_metallurgy",
+    "count_frozen_oldscrap_manufacture",
+    "dcount_dparams_oldscrap_manufacture",
+    "term_direct_oldscrap_manufacture",
+    "term_propagated_oldscrap_manufacture",
+    "count_frozen_eol_collection",
+    "dcount_dparams_eol_collection",
+    "term_direct_eol_collection",
+    "term_propagated_eol_collection",
+    "elas_tau_nonauto_alpha_cc",
+    "elas_upsilon_nonauto_alpha_cc",
+    "elas_tau_nonauto_alpha_refc",
+    "elas_upsilon_nonauto_alpha_refc",
+    "elas_tau_nonauto_alpha_win",
+    "elas_upsilon_nonauto_alpha_win",
+    "elas_tau_nonauto_alpha_dr",
+    "elas_upsilon_nonauto_alpha_dr",
+    "elas_tau_nonauto_tau_ref",
+    "elas_upsilon_nonauto_tau_ref",
+    "elas_tau_nonauto_tau_waelz",
+    "elas_upsilon_nonauto_tau_waelz",
+    "elas_tau_nonauto_tau_olds",
+    "elas_upsilon_nonauto_tau_olds",
+    "elas_tau_nonauto_tau_diss",
+    "elas_upsilon_nonauto_tau_diss"
+   ]
+  },
+  "analysis/wp2f_bifurcation_years.csv": {
+   "fields": {
+    "theta_2019_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "fa74507e9aaa5dc3d681e641d6fe4b1214157ac896786a152c03cfe71ac0c92e"
+  },
+  "analysis/wp2f_bifurcation_years_combined.csv": {
+   "fields": {
+    "theta_2019_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "fa74507e9aaa5dc3d681e641d6fe4b1214157ac896786a152c03cfe71ac0c92e"
+  },
+  "analysis/wp2f_bifurcation_years_laplace.csv": {
+   "fields": {
+    "theta_2019_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "fa74507e9aaa5dc3d681e641d6fe4b1214157ac896786a152c03cfe71ac0c92e"
+  },
+  "analysis/wp2f_feasibility.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 4,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "a6e36a0e0f71d3b695dcada6b974ec8f6e6684fc359f71c036b9d6c6f46c572a"
+  },
+  "analysis/wp2f_feasibility_combined.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 4,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "a6e36a0e0f71d3b695dcada6b974ec8f6e6684fc359f71c036b9d6c6f46c572a"
+  },
+  "analysis/wp2f_feasibility_laplace.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 4,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "a6e36a0e0f71d3b695dcada6b974ec8f6e6684fc359f71c036b9d6c6f46c572a"
+  },
+  "analysis/wp2f_simplex_feasibility.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 8,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 8
+    }
+   },
+   "kind": "csv",
+   "sha256": "68ceda4b717150f2a07642e399f243913e9138ed4eef08045fd0a6cc7427d67a"
+  },
+  "analysis/wp2f_simplex_feasibility_combined.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 8,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 8
+    }
+   },
+   "kind": "csv",
+   "sha256": "68ceda4b717150f2a07642e399f243913e9138ed4eef08045fd0a6cc7427d67a"
+  },
+  "analysis/wp2f_simplex_feasibility_laplace.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 8,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 8
+    }
+   },
+   "kind": "csv",
+   "sha256": "68ceda4b717150f2a07642e399f243913e9138ed4eef08045fd0a6cc7427d67a"
+  },
+  "analysis/wp2f_structural_stability.npz": {
+   "fields": {
+    "params": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "d93dc5a23e6329892ee4dcf7e56fb99220cd2090d9bada1d486ed5ecf718b72b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      20
+     ],
+     "n_mapped": 4200
+    },
+    "path_P_hold": {
+     "mode": "copies",
+     "n_masked": 42105,
+     "recipe": null,
+     "sha256": "474f8686ad2e9e9cb04803440832b64ceb77ac32ddc003165128cd8063fb4c35",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 42105
+    },
+    "path_P_mean5": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "375fdc845e0614d6f225962c52fb84dbf2b9479594651dd47365cbe0cb3d253d",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend20": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "c93dc2a71178c81d642e4f2d90109c0c408a383045ba9db76c88cf1e53b27a7a",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend50": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "41cf50572cf6900a4f233ede770eb931d390d890266e525b261bd4ff3d47bc34",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "params",
+    "sigma",
+    "sigma_label",
+    "param_names",
+    "state_names",
+    "z",
+    "feasible_lo",
+    "feasible_hi",
+    "sigma_provider",
+    "z_levels",
+    "gandolfo_paper_check",
+    "zero_sigma",
+    "degeneracy_flag",
+    "source_md5_wp2a",
+    "source_md5_wp2c",
+    "dtheta_dominant",
+    "bif_value_dominant",
+    "dist_sigma_dominant",
+    "psi_dominant",
+    "t_stat_dominant",
+    "unstable_form1_dominant",
+    "unstable_form2_dominant",
+    "unstable_form3_dominant",
+    "mu_dominant",
+    "dmu_dominant",
+    "dtheta_s(A)",
+    "bif_value_s(A)",
+    "dist_sigma_s(A)",
+    "psi_s(A)",
+    "t_stat_s(A)",
+    "unstable_form1_s(A)",
+    "unstable_form2_s(A)",
+    "unstable_form3_s(A)",
+    "mu_s(A)",
+    "dmu_s(A)",
+    "path_s_hold",
+    "path_s_mean5",
+    "path_s_trend20",
+    "path_s_trend50",
+    "path_P_hold",
+    "path_P_mean5",
+    "path_P_trend20",
+    "path_P_trend50",
+    "future_t"
+   ]
+  },
+  "analysis/wp2f_structural_stability_combined.npz": {
+   "fields": {
+    "params": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "d93dc5a23e6329892ee4dcf7e56fb99220cd2090d9bada1d486ed5ecf718b72b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      20
+     ],
+     "n_mapped": 4200
+    },
+    "path_P_hold": {
+     "mode": "copies",
+     "n_masked": 42105,
+     "recipe": null,
+     "sha256": "474f8686ad2e9e9cb04803440832b64ceb77ac32ddc003165128cd8063fb4c35",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 42105
+    },
+    "path_P_mean5": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "375fdc845e0614d6f225962c52fb84dbf2b9479594651dd47365cbe0cb3d253d",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend20": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "c93dc2a71178c81d642e4f2d90109c0c408a383045ba9db76c88cf1e53b27a7a",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend50": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "41cf50572cf6900a4f233ede770eb931d390d890266e525b261bd4ff3d47bc34",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "params",
+    "sigma",
+    "sigma_label",
+    "param_names",
+    "state_names",
+    "z",
+    "feasible_lo",
+    "feasible_hi",
+    "sigma_provider",
+    "z_levels",
+    "gandolfo_paper_check",
+    "zero_sigma",
+    "degeneracy_flag",
+    "source_md5_wp2a",
+    "source_md5_wp2c",
+    "dtheta_dominant",
+    "bif_value_dominant",
+    "dist_sigma_dominant",
+    "psi_dominant",
+    "t_stat_dominant",
+    "unstable_form1_dominant",
+    "unstable_form2_dominant",
+    "unstable_form3_dominant",
+    "mu_dominant",
+    "dmu_dominant",
+    "dtheta_s(A)",
+    "bif_value_s(A)",
+    "dist_sigma_s(A)",
+    "psi_s(A)",
+    "t_stat_s(A)",
+    "unstable_form1_s(A)",
+    "unstable_form2_s(A)",
+    "unstable_form3_s(A)",
+    "mu_s(A)",
+    "dmu_s(A)",
+    "path_s_hold",
+    "path_s_mean5",
+    "path_s_trend20",
+    "path_s_trend50",
+    "path_P_hold",
+    "path_P_mean5",
+    "path_P_trend20",
+    "path_P_trend50",
+    "future_t"
+   ]
+  },
+  "analysis/wp2f_structural_stability_laplace.npz": {
+   "fields": {
+    "params": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "d93dc5a23e6329892ee4dcf7e56fb99220cd2090d9bada1d486ed5ecf718b72b",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      20
+     ],
+     "n_mapped": 4200
+    },
+    "path_P_hold": {
+     "mode": "copies",
+     "n_masked": 42105,
+     "recipe": null,
+     "sha256": "474f8686ad2e9e9cb04803440832b64ceb77ac32ddc003165128cd8063fb4c35",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 42105
+    },
+    "path_P_mean5": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "375fdc845e0614d6f225962c52fb84dbf2b9479594651dd47365cbe0cb3d253d",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend20": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "c93dc2a71178c81d642e4f2d90109c0c408a383045ba9db76c88cf1e53b27a7a",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    },
+    "path_P_trend50": {
+     "mode": "copies",
+     "n_masked": 105,
+     "recipe": null,
+     "sha256": "41cf50572cf6900a4f233ede770eb931d390d890266e525b261bd4ff3d47bc34",
+     "dtype": "float64",
+     "shape": [
+      35,
+      401,
+      20
+     ],
+     "n_mapped": 105
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "params",
+    "sigma",
+    "sigma_label",
+    "param_names",
+    "state_names",
+    "z",
+    "feasible_lo",
+    "feasible_hi",
+    "sigma_provider",
+    "z_levels",
+    "gandolfo_paper_check",
+    "zero_sigma",
+    "degeneracy_flag",
+    "source_md5_wp2a",
+    "source_md5_wp2c",
+    "dtheta_dominant",
+    "bif_value_dominant",
+    "dist_sigma_dominant",
+    "psi_dominant",
+    "t_stat_dominant",
+    "unstable_form1_dominant",
+    "unstable_form2_dominant",
+    "unstable_form3_dominant",
+    "mu_dominant",
+    "dmu_dominant",
+    "dtheta_s(A)",
+    "bif_value_s(A)",
+    "dist_sigma_s(A)",
+    "psi_s(A)",
+    "t_stat_s(A)",
+    "unstable_form1_s(A)",
+    "unstable_form2_s(A)",
+    "unstable_form3_s(A)",
+    "mu_s(A)",
+    "dmu_s(A)",
+    "path_s_hold",
+    "path_s_mean5",
+    "path_s_trend20",
+    "path_s_trend50",
+    "path_P_hold",
+    "path_P_mean5",
+    "path_P_trend20",
+    "path_P_trend50",
+    "future_t"
+   ]
+  },
+  "analysis/wp2f_z_table.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "1f5fec7987e095f107375e0b3067197b80e9882c43c93e11d0fc40d69b05ef1c"
+  },
+  "analysis/wp2f_z_table_combined.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "07a7fbc5ef0db2fc8f77ebafbdf9ed554b959684756b57422ac05861d19e74d2"
+  },
+  "analysis/wp2f_z_table_laplace.csv": {
+   "fields": {
+    "theta_median": {
+     "mode": "copies",
+     "n_masked": 12,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "f78aef2722b60db98fcf36ff217b34e758f9423e178cf61e98f438a326fc00dd"
+  },
+  "analysis/wp2g_equilibrium.npz": {
+   "fields": {
+    "S_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "sha256": "c84d7d1e5356aacb663e3a4ac0999e2a58f5804c6b6df7fe448fb80c60ea99f8",
+     "dtype": "float64",
+     "shape": [
+      40,
+      4
+     ],
+     "n_mapped": 160
+    },
+    "S_pred": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "b74a28d9d4ffcbfdbb58176f686126b7b1417bc53d3e5079829c4f60f83d1035",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    },
+    "u_frozen": {
+     "mode": "copies",
+     "n_masked": 3,
+     "recipe": null,
+     "sha256": "8ac8d02fe8b7462594a1406e633f254d810314f493ee9855cc4d5f2b0fb25e20",
+     "dtype": "float64",
+     "shape": [
+      1201
+     ],
+     "n_mapped": 3
+    },
+    "frozen_S0": {
+     "mode": "copies",
+     "n_masked": 35,
+     "recipe": null,
+     "sha256": "315663eae315f6cd8d34d5b619d5a92b48dbcb72cf969e79da693cf0e49b9948",
+     "dtype": "float64",
+     "shape": [
+      35,
+      6
+     ],
+     "n_mapped": 35
+    },
+    "frozen_S4_hold": {
+     "mode": "copies",
+     "n_masked": 70,
+     "recipe": null,
+     "sha256": "b804ef1166166601360ecc5cec12f488523c95bc0cab4b428fa9cbbb8cdb89ec",
+     "dtype": "float64",
+     "shape": [
+      35,
+      4001,
+      4
+     ],
+     "n_mapped": 70
+    },
+    "frozen_S4_mean5": {
+     "mode": "copies",
+     "n_masked": 70,
+     "recipe": null,
+     "sha256": "6bd03413c278920a3e8f4bcddb7c890fb3586fd4869590b423aaa646c1660a6e",
+     "dtype": "float64",
+     "shape": [
+      35,
+      4001,
+      4
+     ],
+     "n_mapped": 70
+    },
+    "frozen_S4_trend20": {
+     "mode": "copies",
+     "n_masked": 70,
+     "recipe": null,
+     "sha256": "428c4951f85a76573691fe064a1bdd60b7ac408388d8944f0e402fa0fd2dbba1",
+     "dtype": "float64",
+     "shape": [
+      35,
+      4001,
+      4
+     ],
+     "n_mapped": 70
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "source_md5",
+    "state_names",
+    "obs4_names",
+    "param_names",
+    "Sstar",
+    "Sstar_obs4",
+    "N",
+    "S_obs",
+    "S_pred",
+    "T_dom",
+    "target_vs_relax_ratio",
+    "dSstar_dparams_obs4",
+    "elasticity_obs4",
+    "numerical_abscissa",
+    "spectral_abscissa",
+    "kreiss",
+    "amp_sup",
+    "amp_u_at",
+    "amp_norms",
+    "amp_norms1",
+    "amp_col_sup",
+    "amp_sing_in",
+    "amp_sing_out",
+    "frozen_amp_sup",
+    "frozen_amp_u_at",
+    "u_frozen",
+    "u_grid",
+    "b_rules",
+    "frozen_S0",
+    "frozen_S4_hold",
+    "frozen_S4_mean5",
+    "frozen_S4_trend20",
+    "frozen_S4star_hold",
+    "frozen_S4star_mean5",
+    "frozen_S4star_trend20"
+   ]
+  },
+  "analysis/wp2g_saturation.csv": {
+   "fields": {
+    "S_obs": {
+     "mode": "raw",
+     "n_masked": 160,
+     "recipe": null,
+     "column": 5,
+     "n_mapped": 160
+    },
+    "S_pred_median": {
+     "mode": "copies",
+     "n_masked": 4,
+     "recipe": null,
+     "column": 6,
+     "n_mapped": 4
+    },
+    "gap_obs_kt_median": {
+     "mode": "derived",
+     "n_masked": 160,
+     "recipe": "wp2g_saturation",
+     "column": 7
+    },
+    "sat_ratio_obs_median": {
+     "mode": "derived",
+     "n_masked": 160,
+     "recipe": "wp2g_saturation",
+     "column": 9
+    },
+    "sat_ratio_obs_hl": {
+     "mode": "derived",
+     "n_masked": 160,
+     "recipe": "wp2g_saturation",
+     "column": 10
+    },
+    "sat_ratio_obs_lo": {
+     "mode": "derived",
+     "n_masked": 160,
+     "recipe": "wp2g_saturation",
+     "column": 11
+    },
+    "sat_ratio_obs_hi": {
+     "mode": "derived",
+     "n_masked": 160,
+     "recipe": "wp2g_saturation",
+     "column": 12
+    }
+   },
+   "kind": "csv",
+   "sha256": "6c0151ae90cf4521467cb9eeed2b8eb3200f8d469b8b62972335811b9055562b"
+  },
+  "analysis/wp2g_time_to_saturation.csv": {
+   "fields": {
+    "q1_yr": {
+     "mode": "copies",
+     "n_masked": 2,
+     "recipe": null,
+     "column": 6,
+     "n_mapped": 2
+    },
+    "S0_median": {
+     "mode": "copies",
+     "n_masked": 27,
+     "recipe": null,
+     "column": 9,
+     "n_mapped": 27
+    }
+   },
+   "kind": "csv",
+   "sha256": "e548bd204fe0fa4517a3245d7fc8acec9f2e00627bc6c7d23df62c4c73e1cd64"
+  },
+  "analysis/wp4c_marginals.csv": {
+   "fields": {
+    "value": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "column": 3,
+     "n_mapped": 4200
+    }
+   },
+   "kind": "csv",
+   "sha256": "d48d84aa9eb9fb6e549405fe4c2e9e726ccba542915d524b0f66c87f66f4a0ae"
+  },
+  "analysis/wp4c_sigma.npz": {
+   "fields": {
+    "coef_mean": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "sha256": "c6928bc25ad274440bf8d091c09f78fcddafe8f67f46a081ee2fa09e2924ec69",
+     "dtype": "float64",
+     "shape": [
+      40,
+      17
+     ],
+     "n_mapped": 120
+    },
+    "coef_per_seed": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "7de187df0af27bd0618154456d31c1db55ee830b699f69750ea9aa8e6afd0fb4",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      17
+     ],
+     "n_mapped": 4200
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "years",
+    "seeds",
+    "param_names",
+    "coef_names",
+    "lam_ref",
+    "note",
+    "sigma_laplace",
+    "sigma_seed",
+    "sigma_combined",
+    "cov_laplace",
+    "cov_between",
+    "cov_within_mean",
+    "cov_rubin_total",
+    "coef_mean",
+    "coef_per_seed"
+   ]
+  },
+  "analysis/wp4c_vs_seed_spread.csv": {
+   "fields": {
+    "value_median": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 2,
+     "n_mapped": 120
+    }
+   },
+   "kind": "csv",
+   "sha256": "4132d6ab9863badaa3ed4ab3a33425f13ff592847865182ccb107e40252e3308"
+  },
+  "analysis/wp7_coefficient_response.csv": {
+   "fields": {
+    "ref_median": {
+     "mode": "copies",
+     "n_masked": 42,
+     "recipe": null,
+     "column": 3,
+     "n_mapped": 42
+    }
+   },
+   "kind": "csv",
+   "sha256": "7f31cc2b418ec9c761b8a34db9157e598f06ea4a75ac409c107c00ebcd09f81a"
+  },
+  "analysis/wp7_driver_paths.csv": {
+   "fields": {
+    "value": {
+     "mode": "copies",
+     "n_masked": 2220,
+     "recipe": null,
+     "column": 3,
+     "n_mapped": 2220
+    }
+   },
+   "kind": "csv",
+   "sha256": "b7aeabbe7cafed7de817f864dd917ef8d6ee72868ebe0cd57f6d40e2bea745cc"
+  },
+  "analysis/wp7_effects_by_year.csv": {
+   "fields": {
+    "ref_median": {
+     "mode": "copies",
+     "n_masked": 84,
+     "recipe": null,
+     "column": 4,
+     "n_mapped": 84
+    }
+   },
+   "kind": "csv",
+   "sha256": "229d0fb3f71de50ffc829fcec337404757c9fc14817fff4e626b51b435749c32"
+  },
+  "analysis/wp8a_attribution.npz": {
+   "fields": {
+    "value": {
+     "mode": "copies",
+     "n_masked": 4200,
+     "recipe": null,
+     "sha256": "19d899991b98b7ef5e02c6f486f17ef9b818a03009e5f74b96b602f0f8194773",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      15
+     ],
+     "n_mapped": 4200
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "seeds",
+    "years",
+    "x",
+    "coef_names",
+    "driver_names",
+    "orders",
+    "driver_of",
+    "order_of",
+    "learned",
+    "grad",
+    "grad_log",
+    "gxi",
+    "ig",
+    "value",
+    "dS",
+    "completeness"
+   ]
+  },
+  "analysis/wp8b_influence.npz": {
+   "fields": {
+    "S_factual": {
+     "mode": "copies",
+     "n_masked": 140,
+     "recipe": null,
+     "sha256": "b74a28d9d4ffcbfdbb58176f686126b7b1417bc53d3e5079829c4f60f83d1035",
+     "dtype": "float64",
+     "shape": [
+      35,
+      40,
+      4
+     ],
+     "n_mapped": 140
+    }
+   },
+   "kind": "npz",
+   "keys": [
+    "seeds",
+    "years",
+    "drivers",
+    "dS",
+    "dC",
+    "memory",
+    "memory_abs",
+    "peak_lag",
+    "floor",
+    "S_factual",
+    "coef_names"
+   ]
+  },
+  "analysis/wp8h_coefficients.csv": {
+   "fields": {
+    "value": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 6,
+     "n_mapped": 120
+    },
+    "lo68": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 11,
+     "n_mapped": 120
+    },
+    "hi68": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 12,
+     "n_mapped": 120
+    },
+    "lo95": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 13,
+     "n_mapped": 120
+    },
+    "hi95": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 14,
+     "n_mapped": 120
+    },
+    "lo95_symmetric": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 16,
+     "n_mapped": 120
+    },
+    "hi95_symmetric": {
+     "mode": "copies",
+     "n_masked": 120,
+     "recipe": null,
+     "column": 17,
+     "n_mapped": 120
+    }
+   },
+   "kind": "csv",
+   "sha256": "a15585ac547e69e189563810b6e9c142fd7b3112f63eb83da3b2d1a4e7d62608"
+  }
+ }
+}

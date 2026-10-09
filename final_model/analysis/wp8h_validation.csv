@@ -1,0 +1,7 @@
+check,result,exact_answer
+netCDF read-back of `value` vs the in-memory array,0.0,0.0
+netCDF coefficient names round-trip,0.0,0.0
+pooled estimate equals the seed mean,0.0,0.0
+total covariance is positive semidefinite at every year,-5.307535474485265e-16,0.0
+"Jensen gap: A(pooled coefficients) vs mean_s A_s (max abs, 1/yr) — expected non-zero, A is a product",0.08721855399285694,
+"Jensen gap, max RELATIVE, at A[S_iu_short<-S_ref] in 2011",0.05038441946734606,

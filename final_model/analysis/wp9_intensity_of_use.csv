@@ -1,0 +1,2 @@
+quantity,median,q1,q3,hl,hl_lo,hl_hi,ch1_predicted,contains_one,iu_trend_hl,iu_trend_lo,iu_trend_hi,verdict
+elasticity of in-use stock to GDP,0.7124786810628759,0.6970810308333306,0.7210423614528347,0.7099304940180012,0.7022319667458756,0.7165989617273008,1.0,False,-0.008880911810860696,-0.009119719165686005,-0.008674876657518621,"relative dematerialisation (elasticity < 1, Ch1 vartheta < 1)"

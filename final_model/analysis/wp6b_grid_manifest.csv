@@ -1,0 +1,91 @@
+series,delta,n_seeds,included,route,reason,task_id
+flow:refined_consumption,2,8,True,alpha/tau target + dynamics,,0
+flow:refined_consumption,5,8,True,alpha/tau target + dynamics,,1
+flow:refined_consumption,10,8,True,alpha/tau target + dynamics,,2
+flow:concentrate_consumption,2,8,True,alpha/tau target + dynamics,,3
+flow:concentrate_consumption,5,8,True,alpha/tau target + dynamics,,4
+flow:concentrate_consumption,10,8,True,alpha/tau target + dynamics,,5
+stock:Concentrate,2,8,True,alpha/tau target + dynamics,,6
+stock:Concentrate,5,8,True,alpha/tau target + dynamics,,7
+stock:Concentrate,10,8,True,alpha/tau target + dynamics,,8
+stock:Refined,2,8,True,alpha/tau target + dynamics,,9
+stock:Refined,5,8,True,alpha/tau target + dynamics,,10
+stock:Refined,10,8,True,alpha/tau target + dynamics,,11
+stock:Scrap,2,8,True,alpha/tau target + dynamics,,12
+stock:Scrap,5,8,True,alpha/tau target + dynamics,,13
+stock:Scrap,10,8,True,alpha/tau target + dynamics,,14
+flow:direct_reuse_recycling,2,8,True,alpha/tau target + dynamics,,15
+flow:direct_reuse_recycling,5,8,True,alpha/tau target + dynamics,,16
+flow:direct_reuse_recycling,10,8,True,alpha/tau target + dynamics,,17
+flow:concentrate_production,2,8,True,dynamics only,,18
+flow:concentrate_production,5,8,True,dynamics only,,19
+flow:concentrate_production,10,8,True,dynamics only,,20
+flow:waelz_input,2,8,True,alpha/tau target + dynamics,,21
+flow:waelz_input,5,8,True,alpha/tau target + dynamics,,22
+flow:waelz_input,10,8,True,alpha/tau target + dynamics,,23
+tau:tau_olds,2,8,True,alpha/tau target + dynamics,,24
+tau:tau_olds,5,8,True,alpha/tau target + dynamics,,25
+tau:tau_olds,10,8,True,alpha/tau target + dynamics,,26
+tau:frac_fu_new,2,8,True,alpha/tau target + dynamics,,27
+tau:frac_fu_new,5,8,True,alpha/tau target + dynamics,,28
+tau:frac_fu_new,10,8,True,alpha/tau target + dynamics,,29
+tau:frac_fu_loss,2,8,True,alpha/tau target + dynamics,,30
+tau:frac_fu_loss,5,8,True,alpha/tau target + dynamics,,31
+tau:frac_fu_loss,10,8,True,alpha/tau target + dynamics,,32
+tau:tau_ref,2,8,True,alpha/tau target + dynamics,,33
+tau:tau_ref,5,8,True,alpha/tau target + dynamics,,34
+tau:tau_ref,10,8,True,alpha/tau target + dynamics,,35
+stock:In-Use,2,8,True,dynamics only,,36
+stock:In-Use,5,8,True,dynamics only,,37
+stock:In-Use,10,8,True,dynamics only,,38
+tau:frac_eu_loss,2,8,True,alpha/tau target + dynamics,,39
+tau:frac_eu_loss,5,8,True,alpha/tau target + dynamics,,40
+tau:frac_eu_loss,10,8,True,alpha/tau target + dynamics,,41
+tau:tau_diss,2,8,True,alpha/tau target + dynamics,,42
+tau:tau_diss,5,8,True,alpha/tau target + dynamics,,43
+tau:tau_diss,10,8,True,alpha/tau target + dynamics,,44
+tau:frac_eu_new,2,8,True,alpha/tau target + dynamics,,45
+tau:frac_eu_new,5,8,True,alpha/tau target + dynamics,,46
+tau:frac_eu_new,10,8,True,alpha/tau target + dynamics,,47
+tau:tau_waelz,2,8,True,target only,,48
+tau:tau_waelz,5,8,True,target only,,49
+tau:tau_waelz,10,8,True,target only,,50
+flow:end_of_life,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_of_life,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_of_life,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:old_scrap_recovery,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:old_scrap_recovery,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:old_scrap_recovery,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_recycling,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_recycling,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_recycling,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_losses,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_losses,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:waelz_losses,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:primary_refining,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:primary_refining,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:primary_refining,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:refinery_losses,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:refinery_losses,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:refinery_losses,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:total_products_into_use,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:total_products_into_use,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:total_products_into_use,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:inuse_inflow,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:inuse_inflow,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:inuse_inflow,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:dissipative_use,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:dissipative_use,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:dissipative_use,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_new_scrap,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_new_scrap,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_new_scrap,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_losses,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_losses,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:first_use_losses,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_new_scrap,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_new_scrap,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_new_scrap,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_losses,2,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_losses,5,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1
+flow:end_use_losses,10,8,False,none,no path into the anchor_v4 objective (stageB_w_F = 0); refit would reproduce anchor_v4 exactly,-1

@@ -1,0 +1,12 @@
+part,check,result,exact_answer,note
+0,Gandolfo (1992) p.45 worked example — verdict (structurally unstable) reproduced,0.0,0.0,external check against the source paper
+0,Gandolfo (1992) p.45 worked example — elasticity 3.2066 vs the paper's 3.22 (relative),0.004148426577433303,0.0,"the paper reports 3 s.f., so agreement is expected at 1e-3"
+0,Gandolfo (1992) p.45 worked example — RHS of form (iv) 3.1225 vs the paper's 3.12 (relative),0.0008107834194790954,0.0,the paper reports 3 s.f.
+0,criterion is invariant to the value of mu (it cancels in all three forms),0.0,0.0,numerical check
+0,dA/dp (complex step) vs central difference,3.0143884646809304e-10,0.0,numerical check
+0,dlambda_k/dp_n vs central difference of eig(A(p+-h)) — WP-2c reached 8.5e-08,4.922127224953095e-08,0.0,numerical check
+1,Gandolfo's three forms agree (dominant root),0.0,0.0,numerical check
+1,Gandolfo's three forms agree (s(A) root),0.0,0.0,numerical check
+1,dominant mode is the spectral abscissa at every node (WP-2b: S_iu_long at 1400/1400),0.0,0.0,numerical check
+2,s(A) re-evaluated at every FEASIBLE bifurcation value reaches 0 (tests the first-order device itself),0.9345700943017544,0.0,"NOT a code check — a measurement of Gandolfo's first-order device itself.  A large value means the linearised bifurcation value is not where the root actually reaches zero, which is a reportable property of the system (mu_44yr: lambda ~ -1/mu, so the true bifurcation is at mu -> infinity)."
+5,"seed-years at which the dominant root is NOT significantly different from zero at 5%, any covariance source",0.0,0.0,Gandolfo & Padoan's own stability test; 0 means the root is resolved as negative at every seed and year

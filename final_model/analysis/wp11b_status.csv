@@ -1,0 +1,3 @@
+curve,path,present,fits_required,design
+wp6b_coarsening,/Users/nicola/Repos/AnthroFlowAI/final_model/analysis/wp6b_coarsening.csv,True,32,4 reporting intervals x 8 seeds (all-series curve)
+wp11a_frequency_value,/Users/nicola/Repos/AnthroFlowAI/final_model/analysis/wp11a_frequency_value.csv,True,56,4 frequency + 3 coarse full-span arms x 8 seeds

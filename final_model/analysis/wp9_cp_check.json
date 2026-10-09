@@ -1,0 +1,124 @@
+{
+  "exog_cols": [
+    "Zinc real price",
+    "Energy index",
+    "GDP",
+    "US Industrial Production Total Index",
+    "EU28 Industrial Production Total Index",
+    "China All Industry Value Added (Constant 2015 USD)",
+    "Producer Price Index of Non-ferrous Scrap",
+    "Real Treatment Charges",
+    "Precious metal index",
+    "Full metal real index",
+    "World Stock Market Capitalisation (% of GDP)",
+    "China Total Manufacturing Output",
+    "Population"
+  ],
+  "n_universe": 13,
+  "orders": [
+    0,
+    1
+  ],
+  "input_dim": 31,
+  "n_exog_features": 26,
+  "years": [
+    1980.0,
+    2019.0
+  ],
+  "T": 40,
+  "alpha_names": [
+    "alpha_cc",
+    "alpha_refc",
+    "alpha_win",
+    "alpha_dr"
+  ],
+  "tau_sup_names": [
+    "tau_ref",
+    "tau_waelz",
+    "tau_olds",
+    "tau_diss",
+    "frac_fu_new",
+    "frac_fu_loss",
+    "frac_eu_new",
+    "frac_eu_loss"
+  ],
+  "patches": [],
+  "arm_key": "learn_cp",
+  "config_diff": {
+    "learn_cp": [
+      false,
+      true
+    ]
+  },
+  "layout": {
+    "anchor_v4": {
+      "n_raw": 10,
+      "cp_slot": null,
+      "pin_cp": true,
+      "n_params": 2410
+    },
+    "learn_cp": {
+      "n_raw": 11,
+      "cp_slot": 0,
+      "pin_cp": false,
+      "n_params": 2443
+    }
+  },
+  "weights_dir": "/Users/nicola/Repos/AnthroFlowAI/final_model/analysis/wp9_cp/weights",
+  "n_weight_dumps": 35,
+  "base_weights_dir": "/Users/nicola/Repos/AnthroFlowAI/final_model/analysis/wp2a",
+  "n_base_weight_dumps": 35,
+  "n_paired_seeds": 35,
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34
+  ],
+  "p1": {
+    "prediction": "P1",
+    "base_n_survives": 2,
+    "cp_n_survives": 1,
+    "base_sign_agreement": 6,
+    "cp_sign_agreement": 3,
+    "base_median_abs_hl": 7.549429742835439e-05,
+    "cp_median_abs_hl": 0.00027025970583071757,
+    "magnitude_ratio": 3.5798691429269804,
+    "held": false
+  },
+  "verdict": "SIGN CONFIRMED and identified, on a split pre-registration",
+  "detail": "net dchi/dg = -0.38 [-0.48, -0.27] against anchor_v4's +0.33 [-0.36, +0.87] and Chapter 1's -4.87 (8% of it); dilution channel -0.61 [-0.69, -0.54]. P2 held and P1 did not. P1 asked the wrong question of the denominator: it scored agreement in the SIGN of the per-driver response, which anchor_v4 already satisfies (6/6) because its denominators are near-zero noise of a common sign, and which a pooled origin regression does not require. What that regression needs is spread and signal across directions, and the cp arm supplies it (denominator x3.6). The criterion was a poor operationalisation, stated as written and marked not held; Part 6 tests the two ways P1's failure could still make the pooled slope an artefact",
+  "guard_all_passed": true,
+  "ch1_dchi_dg": -4.869084916286903
+}

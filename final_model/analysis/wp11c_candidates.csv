@@ -1,0 +1,17 @@
+candidate,kind,operator,members,sigma_rel
+concentrate_stock,stock,point-in-time,Concentrate,0.027523657774918962
+refined_stock,stock,point-in-time,Refined,0.06338698002168415
+inuse_stock,stock,point-in-time,In-Use,0.005666260009438102
+scrap_stock,stock,point-in-time,Scrap,0.02074430702085382
+concentrate_production,flow,period integral,concentrate_production,0.0
+concentrate_consumption,flow,period integral,concentrate_consumption,0.01261094005927873
+refined_consumption,flow,period integral,refined_consumption,0.013261572827477567
+waelz_input,flow,period integral,waelz_input,0.07523701803061267
+direct_reuse_recycling,flow,period integral,direct_reuse_recycling,0.10740028669263947
+end_of_life,flow,period integral,end_of_life,0.032423194007288623
+scrap_collection,flow,period integral,old_scrap_recovery,0.1302811241148515
+primary_refining,flow,period integral,primary_refining,0.012610594570177262
+refined_production,flow_sum,period integral of a sum,"primary_refining, waelz_recycling",
+eol_composition,composition,log-ratios of period integrals,,0.04585332070056163
+all_stocks,bundle,joint,"concentrate_stock, refined_stock, inuse_stock, scrap_stock",
+all_flows,bundle,joint,"concentrate_consumption, refined_consumption, waelz_input, direct_reuse_recycling, end_of_life, scrap_collection, refined_production",

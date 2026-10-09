@@ -1,0 +1,18 @@
+{
+  "title": "Time-varying transfer coefficients of the global anthropogenic zinc cycle, 1980-2019, with credible bands",
+  "summary": "Coefficients of a universal differential equation model (dS/dt = A(t) S + b(t)) fitted to the Rostek et al. (2022) zinc MFA. Uncertainty pools a 35-seed ensemble with the per-seed Laplace approximation by Rubin's rules.",
+  "source": "zinc_colloc_v5.py (anchor_v4 configuration), 35 seeds; WP-4c Fisher information; WP-8h pooling",
+  "model_md5": "8f57a3d702a0d7d9b0b406c663e9effa",
+  "data_md5": "2349fe8e2a7872b3f4691210652da96b",
+  "data_source": "Rostek, Pauliuk et al. (2022), global zinc MFA, N = 40 annual observations 1980-2019",
+  "n_seeds": 35,
+  "laplace_lambda_rel": 0.0001,
+  "pooling": "Rubin (1987): T = Wbar + (1 + 1/S) B",
+  "band_convention": "rates log-normal, shares logit-normal; symmetric bands also provided in the CSV",
+  "not_covered": "model-structure error (fixed-exponential in-use cohorts; Ch2 s2/s3 aggregated; s6-s8 absent); the pinned coefficients' own data uncertainty; the alpha_obs construction bias (integral over interpolated point)",
+  "pinned_coefficients": "tau_ref, tau_waelz, tau_diss, frac_fu_loss, frac_eu_loss (data); mu_10yr, mu_20yr, mu_44yr (fixed by construction)",
+  "held_out_window": "2007-2019 (pre-registered; never used for model selection)",
+  "history": "created 2026-08-21 by run_wp8h.py",
+  "conventions": "CF-like attribute names, but not CF-compliant",
+  "license": "not specified \u2014 contact the author before redistribution"
+}

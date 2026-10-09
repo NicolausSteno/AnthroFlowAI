@@ -1,0 +1,2 @@
+chi_measured,h3_slope_at_pi0,h3_slope_at_pi1,pi_span_of_prediction,measured_slope,measured_ci_width,ci_over_span,identified,verdict
+0.24033140456495375,1.316363485352874,1.3354412170246548,0.01907773167178073,1.238106355711193,0.07160064259243581,3.753100411740541,False,pi NOT identifiable: its whole effect is smaller than the ensemble's own interval

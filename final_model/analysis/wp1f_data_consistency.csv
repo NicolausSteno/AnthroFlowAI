@@ -1,0 +1,9 @@
+kind,target,max_abs_kt,mean_abs_kt,cumulative_kt
+stock balance,Concentrate,0.0,0.0,0.0
+stock balance,Refined,0.0,0.0,0.0
+stock balance,In-Use,0.0,0.0,0.0
+stock balance,Scrap,5.684341886080801e-13,1.5449749741655512e-13,-7.958078640513122e-13
+flow identity,refining split,0.0,0.0,0.0
+flow identity,waelz split,0.0,0.0,0.0
+flow identity,use-phase split,0.0,0.0,0.0
+flow identity,manufacturing chain,0.0,0.0,0.0

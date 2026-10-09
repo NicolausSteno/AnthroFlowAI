@@ -1,0 +1,8 @@
+lam_rel,spearman_vs_first,order
+1e-10,1.0,frac_eu_into > frac_fu_out > alpha_cc > alpha_refc > alpha_dr > alpha_win > tau_olds > frac_fu_new > frac_eu_new > f_cohort_44yr > f_cohort_20yr > f_cohort_10yr
+1e-08,1.0,frac_eu_into > frac_fu_out > alpha_cc > alpha_refc > alpha_dr > alpha_win > tau_olds > frac_fu_new > frac_eu_new > f_cohort_44yr > f_cohort_20yr > f_cohort_10yr
+1e-06,1.0,frac_eu_into > frac_fu_out > alpha_cc > alpha_refc > alpha_dr > alpha_win > tau_olds > frac_fu_new > frac_eu_new > f_cohort_44yr > f_cohort_20yr > f_cohort_10yr
+0.0001,1.0,frac_eu_into > frac_fu_out > alpha_cc > alpha_refc > alpha_dr > alpha_win > tau_olds > frac_fu_new > frac_eu_new > f_cohort_44yr > f_cohort_20yr > f_cohort_10yr
+0.01,0.8951048951048951,frac_eu_into > frac_fu_out > alpha_cc > alpha_refc > alpha_dr > f_cohort_44yr > tau_olds > frac_fu_new > alpha_win > f_cohort_20yr > frac_eu_new > f_cohort_10yr
+0.1,0.6853146853146854,frac_eu_into > frac_fu_out > alpha_cc > f_cohort_44yr > alpha_refc > tau_olds > frac_fu_new > f_cohort_20yr > alpha_dr > frac_eu_new > alpha_win > f_cohort_10yr
+1.0,0.39860139860139865,frac_eu_into > frac_fu_out > f_cohort_44yr > alpha_cc > f_cohort_20yr > tau_olds > frac_fu_new > frac_eu_new > alpha_win > alpha_dr > alpha_refc > f_cohort_10yr

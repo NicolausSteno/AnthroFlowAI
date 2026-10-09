@@ -1,0 +1,4 @@
+statistic,value,note
+max_abs_dcoef_dS,0.0,"use_stock_input=false -> the four stock features of _norm_inputs are identically zero (v5:505); the block is structurally dead, not measured small"
+max_ig_completeness_error,0.0006954434431319577,"|sum(IG) - (f(x)-f(baseline))| / |f(x)|, 50 steps"
+n_seeds,35.0,

@@ -1,0 +1,10 @@
+check,value
+step_halving_max_rel_change_tau,2.9453942811414227e-05
+terminal_identity_max_abs_tau,0.0
+terminal_identity_max_abs_upsilon,0.0
+min_N_entry_frozen,0.0
+max_spectral_abscissa_in_window,-0.016006936601295495
+reference_lsoda_seed0_y1980_max_abs_err_tau,0.0002894624336491347
+reference_lsoda_seed0_y2000_max_abs_err_tau,3.456297967829869e-06
+reference_lsoda_seed17_y1985_max_abs_err_tau,0.00023930818967698997
+reference_lsoda_seed34_y2010_max_abs_err_tau,0.000305411265223654

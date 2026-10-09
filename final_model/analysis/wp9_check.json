@@ -1,0 +1,103 @@
+{
+  "exog_cols": [
+    "Zinc real price",
+    "Energy index",
+    "GDP",
+    "US Industrial Production Total Index",
+    "EU28 Industrial Production Total Index",
+    "China All Industry Value Added (Constant 2015 USD)",
+    "Producer Price Index of Non-ferrous Scrap",
+    "Real Treatment Charges",
+    "Precious metal index",
+    "Full metal real index",
+    "World Stock Market Capitalisation (% of GDP)",
+    "China Total Manufacturing Output",
+    "Population"
+  ],
+  "n_universe": 13,
+  "orders": [
+    0,
+    1
+  ],
+  "input_dim": 31,
+  "n_exog_features": 26,
+  "years": [
+    1980.0,
+    2019.0
+  ],
+  "T": 40,
+  "alpha_names": [
+    "alpha_cc",
+    "alpha_refc",
+    "alpha_win",
+    "alpha_dr"
+  ],
+  "tau_sup_names": [
+    "tau_ref",
+    "tau_waelz",
+    "tau_olds",
+    "tau_diss",
+    "frac_fu_new",
+    "frac_fu_loss",
+    "frac_eu_new",
+    "frac_eu_loss"
+  ],
+  "patches": [],
+  "drivers": [
+    "Zinc real price",
+    "Energy index",
+    "GDP",
+    "US Industrial Production Total Index",
+    "EU28 Industrial Production Total Index",
+    "China All Industry Value Added (Constant 2015 USD)",
+    "Producer Price Index of Non-ferrous Scrap",
+    "Real Treatment Charges",
+    "Precious metal index",
+    "Full metal real index",
+    "World Stock Market Capitalisation (% of GDP)",
+    "China Total Manufacturing Output",
+    "Population"
+  ],
+  "n_weight_dumps": 35,
+  "ch1_chi_star": 0.2962585334210526,
+  "ch1_repro_max_gap": 0.05588063157895107,
+  "ch1_chi_deriv_closed_vs_numeric": 1.5598044811326872e-07,
+  "ch1_dchi_dg": -4.869084916286903,
+  "fwd_gap_S": 0.0,
+  "fwd_gap_F": 0.0,
+  "fwd_gap_exog": 8.881784197001252e-16,
+  "jacobian_vs_finite_difference": 0.009763644774829066,
+  "hypotheses": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9",
+    "H10",
+    "H11",
+    "C1",
+    "C2"
+  ],
+  "n_seeds": 35,
+  "max_gap_S": 0.0,
+  "max_gap_F": 0.0,
+  "outcomes": {
+    "H1": "CONTRADICTED",
+    "H2": "SIGN CONFIRMED, magnitude an order of magnitude smaller; the net is not identified here (learn_cp: false anchors throughput, so dg_throughput/dtheta is near zero and of mixed sign)",
+    "H3": "CONFIRMED in structure, not in level",
+    "H4": "CONFIRMED",
+    "H5": "CONFIRMED (analytic)",
+    "H6": "CONTRADICTED \u2014 favours Ch1's own footnoted alternative",
+    "H7": "REFINED \u2014 relative dematerialisation (elasticity < 1, Ch1 vartheta < 1)",
+    "H8": "CONTRADICTED \u2014 the cycle is transitional, not balanced (the throughput/in-use gap is anchor-free; the discard numbers are conditional on the 1980 discard anchor)",
+    "H9": "CONFIRMED \u2014 pi is not identifiable from the material cycle",
+    "H10": "App. Prop. 1 regime \u2014 h > 1 is fitted, but the cycle never leaves the saturated branch, which Ch1 says behaves like the fixed-recovery model; the Skiba threshold, circularity trap and Hopf route of App. Prop. 2 are not live over 1981-2019",
+    "H11": "CONFIRMED",
+    "C1": "not testable",
+    "C2": "not testable"
+  }
+}

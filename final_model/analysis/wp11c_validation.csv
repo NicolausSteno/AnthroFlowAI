@@ -1,0 +1,26 @@
+check,value,exact
+"baseline marginal SD vs wp4c sd_by_lambda (max rel, worst seed)",2.450437011696446e-16,0
+max increase in marginal SD from adding data (kt units),0.0,<= 0
+"max frequency-nesting violation, integral series",0.0,<= 0
+min D-optimality gain over all candidates,0.0,>= 0
+"primary_refining vs concentrate_consumption (pinned tau_ref near-identity), max abs pp",0.0007903973314959956,"~1e-3, see validate_identity"
+"ranking Spearman vs pooled, median over seeds and coefs",0.9692307692307693,1
+design-response test: predicted SD ratio kappa_noisy/kappa_clean,1.6735919563641297,—
+design-response test: median |error| of that prediction (%),7.013307636821675,0
+design-response test: worst |error| (%),35.96557224833804,0
+"ranking Spearman vs the reference ridge, lambda/lambda_1 from 1e-6 to 1e-2, worst",0.6791208791208792,1
+"WP-11a level test, monthly, fitted window: median |error| of the VOI ratio (%)",15.710685611299352,0
+"WP-11a level test, monthly, fitted window: worst |error| (%)",220.77817448606868,0
+"WP-11a ranking test, monthly, fitted window: Spearman over 5 coefficients",0.39999999999999997,1
+"WP-11a ranking test, monthly, fitted window: Spearman excluding alpha_cc",1.0,1
+"WP-11a level test, monthly, common window: median |error| of the VOI ratio (%)",12.235313059452189,0
+"WP-11a level test, monthly, common window: worst |error| (%)",70.96941326674478,0
+"WP-11a ranking test, monthly, common window: Spearman over 5 coefficients",0.3,1
+"WP-11a ranking test, monthly, common window: Spearman excluding alpha_cc",0.39999999999999997,1
+"WP-11a level test, monthly, fitted window: median |error| of 11a's OWN refitted spectrum (%)",270.37995506182205,0
+"WP-11a resolution test, common window: realised gain at matched N from finer Delta (%), median",21.755266769798954,—
+"WP-11a resolution test, common window: pairs of 10 where finer Delta wins at matched N",8.0,—
+"WP-11a resolution test, fitted window: realised gain at matched N from finer Delta (%), median",58.575593192676465,—
+"WP-11a resolution test, fitted window: pairs of 10 where finer Delta wins at matched N",10.0,—
+"WP-11a resolution test: VOI-predicted gain at fixed total precision (%), median",3.164958227235737,—
+alpha channels where the VOI top series matches WP-3's noise ablation (of 4),3.0,4

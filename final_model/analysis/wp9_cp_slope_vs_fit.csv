@@ -1,0 +1,9 @@
+subset,metric,spearman,n
+all 13 drivers,stock_relRMSE,-0.17703081232493,35
+all 13 drivers,flow_relRMSE_common,-0.20028011204481794,35
+all 13 drivers,alpha_relRMSE,-0.09803921568627454,35
+all 13 drivers,cp_relRMSE,-0.32857142857142857,35
+Ch1 activity + population block,stock_relRMSE,-0.1834733893557423,35
+Ch1 activity + population block,flow_relRMSE_common,-0.04061624649859944,35
+Ch1 activity + population block,alpha_relRMSE,-0.11372549019607844,35
+Ch1 activity + population block,cp_relRMSE,-0.1773109243697479,35

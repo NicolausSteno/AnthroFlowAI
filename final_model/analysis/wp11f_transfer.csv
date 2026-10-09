@@ -1,0 +1,5 @@
+channel,n_fits,transfer_identified,slope,intercept,r2,obs_bias_range_nats,excess_fit_over_obs_hl,excess_lo,excess_hi,tags
+alpha_cc,18,False,,,,0.001458124029469987,-0.0007661772476453832,-0.00211873204036106,-8.960070044916613e-05,"base_d1y_clean,mkt_ref_d1y_clean,state_d1y_clean"
+alpha_dr,18,False,,,,0.0002514398232289494,0.0002594771980477528,-0.002316537713493716,0.002575432311228476,"base_d1y_clean,mkt_ref_d1y_clean,state_d1y_clean"
+alpha_refc,18,False,,,,0.010128746384602705,0.023571866703007482,0.020326865811652106,0.02550564541673994,"base_d1y_clean,mkt_ref_d1y_clean,state_d1y_clean"
+alpha_win,18,False,,,,0.008895708598836372,-0.006857624833455089,-0.013004650751651803,-0.001601620470601417,"base_d1y_clean,mkt_ref_d1y_clean,state_d1y_clean"

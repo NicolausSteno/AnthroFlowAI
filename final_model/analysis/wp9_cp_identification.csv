@@ -1,0 +1,3 @@
+arm,label,block_n,block_n_survives,block_sign_agreement,block_median_abs_hl,block_median_snr,all_median_abs_hl,all_n_survives,all_n
+base,anchor_v4  (learn_cp: false),6,2,6,7.549429742835439e-05,0.8133472720710011,8.354348044926426e-05,6,13
+cp,cp arm  (learn_cp: true),6,1,3,0.00027025970583071757,0.548533969619983,0.00032855397832554637,4,13

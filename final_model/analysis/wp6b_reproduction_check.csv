@@ -1,0 +1,5 @@
+seed,comparison,present,max_abs_dalpha,max_abs_dS,max_abs_dalpha_obs,rel_dalpha,rel_dS,bit_exact,is_the_guard
+0,vs_control,True,0.0,0.0,0.0,0.0,0.0,True,True
+0,vs_wp1a,True,0.001043926333043288,9.848382288619177,0.0,6.0148982895100495e-05,4.078013878796123e-05,False,False
+1,vs_control,False,,,,,,,
+1,vs_wp1a,True,0.0009089082959814476,12.321586078236578,0.0,5.698449171444071e-05,5.1398335583064875e-05,False,False

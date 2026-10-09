@@ -1,0 +1,19 @@
+check,value,tolerance,passed,note
+config diff vs anchor_v4 is exactly {learn_cp: False -> True},1.0,1.0,True,"{""learn_cp"": [false, true]}"
+cp arm: core patches applied,0.0,0.0,True,learn_cp is a native config flag (v5:1733); nothing is rebound
+"anchor_v4  (learn_cp: false): ForwardMode integrator vs the fit's own, stocks",0.0,1e-12,True,
+"anchor_v4  (learn_cp: false): ForwardMode integrator vs the fit's own, flows",0.0,1e-12,True,
+anchor_v4  (learn_cp: false): exog rebuild vs the fit's own feature matrix,8.881784197001252e-16,1e-12,True,
+anchor_v4  (learn_cp: false): driver universe and order unchanged,0.0,0.0,True,Zinc real price; Energy index; GDP; ...
+"cp arm  (learn_cp: true): ForwardMode integrator vs the fit's own, stocks",0.0,1e-12,True,
+"cp arm  (learn_cp: true): ForwardMode integrator vs the fit's own, flows",0.0,1e-12,True,
+cp arm  (learn_cp: true): exog rebuild vs the fit's own feature matrix,8.881784197001252e-16,1e-12,True,
+cp arm  (learn_cp: true): driver universe and order unchanged,0.0,0.0,True,Zinc real price; Energy index; GDP; ...
+regression guard scored on the full anchor_v4 ensemble,35.0,35.0,True,35 seeds
+published wp9_dilution.csv reproduced by the repointed estimator,9.947554932554503e-17,1e-12,True,"7 numeric columns, 13 rows"
+published wp9_dilution_pooled.csv reproduced by the repointed estimator,2.220446049250313e-16,1e-12,True,"10 numeric columns, 6 rows"
+published wp9_chi_decomposition.csv reproduced by the repointed estimator,9.71445146547012e-17,1e-12,True,"15 numeric columns, 26 rows"
+anchor_v4/per_seed.csv freerun alpha_relRMSE reproduced,0.0,0.005,True,"published 64.248, recomputed 64.248, n=35"
+anchor_v4/per_seed.csv freerun tau_relRMSE reproduced,3.552713678800501e-15,0.005,True,"published 18.255, recomputed 18.255, n=35"
+anchor_v4/per_seed.csv freerun stock_relRMSE reproduced,7.105427357601002e-15,0.005,True,"published 26.894, recomputed 26.894, n=35"
+anchor_v4/per_seed.csv freerun flow_relRMSE reproduced,1.7763568394002505e-15,0.005,True,"published 14.502, recomputed 14.502, n=35"

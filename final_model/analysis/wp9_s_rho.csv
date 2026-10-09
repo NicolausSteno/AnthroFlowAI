@@ -1,0 +1,2 @@
+quantity,median,q1,q3,hl,hl_lo,hl_hi,r2_median,ch1_short_run,ch1_short_run_lo,ch1_short_run_hi,ch1_long_run,short_run_in_interval,long_run_in_interval,between,rel_error_vs_short_run
+"dln s / drho, pooled over 26 perturbation directions",0.7603717654680743,0.5464412853436658,1.0046287489855625,0.7596600190489176,0.612251213046205,0.8781067860789635,0.9803544242053251,0.7379026926740597,0.7337945806414868,0.7417172463873292,1.1765219960902356,True,False,True,0.029485359778282174

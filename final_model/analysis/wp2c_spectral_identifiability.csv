@@ -1,0 +1,5 @@
+kind,param_a,param_b,max_abs_elasticity,max_abs_elasticity_difference
+spectrally_invisible,tau_ref,,0.0,0.0
+spectrally_invisible,frac_fu_loss,,0.0,0.0
+spectrally_invisible,frac_eu_loss,,0.0,0.0
+spectrally_indistinguishable,tau_olds,frac_eu_into,0.4849598422025333,1.887379141862766e-15

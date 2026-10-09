@@ -1,0 +1,590 @@
+# AnthroFlowAI — .gitignore for the Chapter 5 (UDE zinc cycle) code release
+#
+# WHITELIST. Everything is ignored by default. Re-included below: the code and
+# results used by Chapter 5 (chapters/ch4_ude_zinc.tex) and its appendix
+# (appendices/app_ch4_estimation.tex), plus the experiments reserved for the
+# thesis discussion chapter (Chapter 6) in CH4_DISCUSSION_REVISION_INSTRUCTIONS.md
+# section 3 and CH4_DRAFT_NOTES.md section 5.6. To publish another file, add a
+# '!' line for it in the right block. Generated 2026-10-09.
+#
+# NOT PUBLISHABLE (no ILZSG permission): zinc_dataset*.xlsx and the original
+# result files that store values of the observed record. Their masked copies
+# are published under final_model/masked_results/ (see
+# reproducibility/restore_observed.py). The final block re-ignores the
+# originals and overrides any whitelist line above it.
+
+# ---- 1. ignore everything at the repository root -------------------------
+/*
+
+# ---- 2. root files: environment and docs ---------------------------------
+!/.gitignore
+!/README.md
+!/requirements.txt
+!/.python-version
+
+# ---- 3. final_model: model code and work-package drivers -----------------
+!/final_model/
+/final_model/*
+# core model, ridge-regression comparator and the anchor driver
+!/final_model/zinc_colloc_v5.py
+!/final_model/zinc_baseline.py
+!/final_model/run_anchor.py
+# lab modules (import-time patches used by the drivers below)
+!/final_model/zinc_A_lab.py
+!/final_model/zinc_agg_lab.py
+!/final_model/zinc_alias_lab.py
+!/final_model/zinc_alpha_lab.py
+!/final_model/zinc_cf_lab.py
+!/final_model/zinc_ch1_lab.py
+!/final_model/zinc_circ_lab.py
+!/final_model/zinc_coarse_lab.py
+!/final_model/zinc_cp_lab.py
+!/final_model/zinc_erlang_lab.py
+!/final_model/zinc_fisher_lab.py
+!/final_model/zinc_freq_lab.py
+!/final_model/zinc_interp_lab.py
+!/final_model/zinc_market_lab.py
+!/final_model/zinc_scale_lab.py
+!/final_model/zinc_synth_lab.py
+!/final_model/zinc_voi_lab.py
+!/final_model/zinc_xai_lab.py
+# drivers of the analyses reported in Chapter 5
+!/final_model/run_wp1a.py
+!/final_model/run_wp1b.py
+!/final_model/run_wp1c.py
+!/final_model/run_wp1f.py
+!/final_model/run_wp2a.py
+!/final_model/run_wp2b.py
+!/final_model/run_wp2c.py
+!/final_model/run_wp2d.py
+!/final_model/run_wp2e.py
+!/final_model/run_wp2f.py
+!/final_model/run_wp2g.py
+!/final_model/run_wp3.py
+!/final_model/run_wp4c.py
+!/final_model/run_wp6b.py
+!/final_model/run_wp7.py
+!/final_model/run_wp8.py
+!/final_model/run_wp8h.py
+!/final_model/run_wp10.py
+!/final_model/run_wp11a.py
+!/final_model/run_wp11b.py
+!/final_model/run_wp11c.py
+!/final_model/run_wp11d.py
+!/final_model/run_wp11f.py
+!/final_model/run_wp11g.py
+# drivers of the analyses reserved for the discussion chapter (Chapter 6):
+# wp10b Erlang follow-up (invariance test), wp9/wp9_cp Chapter 2 hypotheses and
+# circularity index, wp4b state-blindness, wp4a/wp11e/wp11h continuous-time thread
+!/final_model/run_wp4a.py
+!/final_model/run_wp4b.py
+!/final_model/run_wp9.py
+!/final_model/run_wp9_cp.py
+!/final_model/run_wp10b.py
+!/final_model/run_wp11e.py
+!/final_model/run_wp11h.py
+
+# ---- 4. reproducibility tools --------------------------------------------
+!/final_model/reproducibility/
+/final_model/reproducibility/*
+!/final_model/reproducibility/mask_observed.py
+!/final_model/reproducibility/restore_observed.py
+!/final_model/reproducibility/figures/
+/final_model/reproducibility/figures/*
+!/final_model/reproducibility/figures/make_ch4_figures.py
+
+# ---- 5. the ten figure PDFs included by the chapter -----------------------
+!/final_model/PhD_Thesis/
+/final_model/PhD_Thesis/*
+!/final_model/PhD_Thesis/figures/
+/final_model/PhD_Thesis/figures/*
+!/final_model/PhD_Thesis/figures/ch4/
+/final_model/PhD_Thesis/figures/ch4/*
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig1_coefficients.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig1_flows_a.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig1_flows_b.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig1_stocks.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig2_accuracy.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig4_system.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig5_indicators.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig6_sensitivity.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig7_response.pdf
+!/final_model/PhD_Thesis/figures/ch4/ch4_fig8_observation.pdf
+
+# ---- 6. headline runs: summary tables and configs -------------------------
+# (pred_seed*.npz are published in masked form under masked_results/)
+!/final_model/anchor_v4/
+/final_model/anchor_v4/*
+!/final_model/anchor_v4/config_used.json
+!/final_model/anchor_v4/per_seed.csv
+!/final_model/anchor_v4/per_stock.csv
+!/final_model/anchor_v4/per_flow.csv
+!/final_model/anchor_v4/per_flow_error.csv
+!/final_model/anchor_v4/per_stock_vs_persistence.csv
+!/final_model/anchor_gam/
+/final_model/anchor_gam/*
+!/final_model/anchor_gam/config_used.json
+!/final_model/anchor_gam/per_seed.csv
+!/final_model/anchor_gam/per_stock.csv
+!/final_model/anchor_gam/per_flow.csv
+
+# ---- 7. analysis results that contain no observed values ------------------
+# per-seed sub-folders, plots, logs and notes stay ignored
+!/final_model/analysis/
+/final_model/analysis/*
+# wp1a
+!/final_model/analysis/wp1a_alpha_channels.csv
+!/final_model/analysis/wp1a_alpha_per_seed.csv
+!/final_model/analysis/wp1a_alpha_target_volatility.csv
+!/final_model/analysis/wp1a_reproduction_check.csv
+# wp1b
+!/final_model/analysis/wp1b_compensation.csv
+!/final_model/analysis/wp1b_compensation_per_seed.csv
+!/final_model/analysis/wp1b_factor_vs_product.csv
+!/final_model/analysis/wp1b_mismatch_control.csv
+# wp1c
+!/final_model/analysis/wp1c_trimmed.csv
+!/final_model/analysis/wp1c_variance_decomposition.csv
+# wp1f
+!/final_model/analysis/wp1f_ar_orders.csv
+!/final_model/analysis/wp1f_data_consistency.csv
+!/final_model/analysis/wp1f_flow_error.csv
+!/final_model/analysis/wp1f_identity_violation.csv
+# wp2a
+!/final_model/analysis/wp2a_A_entries.csv
+!/final_model/analysis/wp2a_mass_conservation.csv
+!/final_model/analysis/wp2a_reproduction_check.csv
+# wp2b
+!/final_model/analysis/wp2b_adiabaticity.csv
+!/final_model/analysis/wp2b_degeneracy.csv
+!/final_model/analysis/wp2b_dominant.csv
+!/final_model/analysis/wp2b_dominant_hl.csv
+!/final_model/analysis/wp2b_eigen.npz
+!/final_model/analysis/wp2b_eigen_summary.csv
+!/final_model/analysis/wp2b_modes_per_seed.csv
+!/final_model/analysis/wp2b_oscillation_scan.csv
+# wp2c
+!/final_model/analysis/wp2c_degeneracy_flags.csv
+!/final_model/analysis/wp2c_dominant_per_seed.csv
+!/final_model/analysis/wp2c_sensitivity_summary.csv
+!/final_model/analysis/wp2c_simplex_directions.csv
+!/final_model/analysis/wp2c_spectral_identifiability.csv
+!/final_model/analysis/wp2c_validation.csv
+# wp2d
+!/final_model/analysis/wp2d_ch2_route_ranking.csv
+!/final_model/analysis/wp2d_circularity.npz
+!/final_model/analysis/wp2d_conditioning.csv
+!/final_model/analysis/wp2d_discrepancy.csv
+!/final_model/analysis/wp2d_elasticities.csv
+!/final_model/analysis/wp2d_indicators.csv
+!/final_model/analysis/wp2d_rule_sensitivity.csv
+!/final_model/analysis/wp2d_validation.csv
+# wp2e
+!/final_model/analysis/wp2e_flow_count_sensitivity.csv
+!/final_model/analysis/wp2e_frozen_vs_nonauto.csv
+!/final_model/analysis/wp2e_simplex_directions.csv
+!/final_model/analysis/wp2e_tau_sensitivity.csv
+!/final_model/analysis/wp2e_term_decomposition.csv
+!/final_model/analysis/wp2e_validation.csv
+!/final_model/analysis/wp2e_vs_wp2c_rank.csv
+# wp2f
+!/final_model/analysis/wp2f_check.json
+!/final_model/analysis/wp2f_check_combined.json
+!/final_model/analysis/wp2f_check_laplace.json
+!/final_model/analysis/wp2f_oscillation_boundary.csv
+!/final_model/analysis/wp2f_oscillation_boundary_combined.csv
+!/final_model/analysis/wp2f_oscillation_boundary_laplace.csv
+!/final_model/analysis/wp2f_root_significance.csv
+!/final_model/analysis/wp2f_root_significance_combined.csv
+!/final_model/analysis/wp2f_root_significance_laplace.csv
+!/final_model/analysis/wp2f_validation.csv
+!/final_model/analysis/wp2f_validation_combined.csv
+!/final_model/analysis/wp2f_validation_laplace.csv
+# wp2g
+!/final_model/analysis/wp2g_amplification.csv
+!/final_model/analysis/wp2g_check.json
+!/final_model/analysis/wp2g_equilibrium.csv
+!/final_model/analysis/wp2g_equilibrium_sensitivity.csv
+!/final_model/analysis/wp2g_modal_approach.csv
+!/final_model/analysis/wp2g_simplex_directions.csv
+!/final_model/analysis/wp2g_validation.csv
+# wp3
+!/final_model/analysis/wp3_acceptance.csv
+!/final_model/analysis/wp3_acceptance_per_seed.csv
+!/final_model/analysis/wp3_alpha_target_bias.csv
+!/final_model/analysis/wp3_alpha_target_bias_by_window.csv
+!/final_model/analysis/wp3_alpha_target_decomposition.csv
+!/final_model/analysis/wp3_alpha_target_noise.csv
+!/final_model/analysis/wp3_bias_amplitude_sweep.csv
+!/final_model/analysis/wp3_boxcar_gain.csv
+!/final_model/analysis/wp3_covariance_identity.csv
+!/final_model/analysis/wp3_operator_checks.csv
+# wp4a  (Chapter 6)
+!/final_model/analysis/wp4a_annihilation.csv
+!/final_model/analysis/wp4a_boxcar_gain.csv
+!/final_model/analysis/wp4a_capacity.csv
+!/final_model/analysis/wp4a_components.csv
+!/final_model/analysis/wp4a_damage.csv
+!/final_model/analysis/wp4a_damage_per_seed.csv
+!/final_model/analysis/wp4a_detectability.csv
+!/final_model/analysis/wp4a_recovery.csv
+!/final_model/analysis/wp4a_recovery_per_seed.csv
+!/final_model/analysis/wp4a_sampling_fate.csv
+!/final_model/analysis/wp4a_sinc_bound.csv
+# wp4b  (Chapter 6)
+!/final_model/analysis/wp4b_absorption_per_seed.csv
+!/final_model/analysis/wp4b_cf_asymmetry.csv
+!/final_model/analysis/wp4b_cf_checks.csv
+!/final_model/analysis/wp4b_cf_curves.csv
+!/final_model/analysis/wp4b_contrasts.csv
+!/final_model/analysis/wp4b_counterfactual.csv
+!/final_model/analysis/wp4b_counterfactual_per_seed.csv
+!/final_model/analysis/wp4b_fit_quality.csv
+!/final_model/analysis/wp4b_gate.csv
+!/final_model/analysis/wp4b_gate_driver_corr.csv
+!/final_model/analysis/wp4b_projection.csv
+!/final_model/analysis/wp4b_projection_levels.csv
+!/final_model/analysis/wp4b_stability.csv
+!/final_model/analysis/wp4b_structure.csv
+!/final_model/analysis/wp4b_structure_per_seed.csv
+!/final_model/analysis/wp4b_truth_smoothness.csv
+# wp4c
+!/final_model/analysis/wp4c_identifiability.csv
+!/final_model/analysis/wp4c_profile.csv
+!/final_model/analysis/wp4c_profile_intervals.csv
+!/final_model/analysis/wp4c_ranking_stability.csv
+!/final_model/analysis/wp4c_spectrum.csv
+!/final_model/analysis/wp4c_spectrum_summary.csv
+!/final_model/analysis/wp4c_stiff_directions.csv
+!/final_model/analysis/wp4c_validation.csv
+# wp6b
+!/final_model/analysis/wp6b_coarsening.csv
+!/final_model/analysis/wp6b_coarsening_test.csv
+!/final_model/analysis/wp6b_curve_summary.csv
+!/final_model/analysis/wp6b_gate_handoff.csv
+!/final_model/analysis/wp6b_grid_manifest.csv
+!/final_model/analysis/wp6b_per_seed.csv
+!/final_model/analysis/wp6b_reach.csv
+!/final_model/analysis/wp6b_reproduction_check.csv
+!/final_model/analysis/wp6b_stocks.csv
+!/final_model/analysis/wp6b_target_degradation.csv
+# wp7
+!/final_model/analysis/wp7_linearity.csv
+!/final_model/analysis/wp7_noise_floor.csv
+!/final_model/analysis/wp7_price_elasticity.csv
+!/final_model/analysis/wp7_shock_per_driver.csv
+!/final_model/analysis/wp7_summary.csv
+!/final_model/analysis/wp7_time_to_effect.csv
+!/final_model/analysis/wp7_time_to_effect_per_seed.csv
+# wp8
+!/final_model/analysis/wp8a_attribution.csv
+!/final_model/analysis/wp8a_dalpha_dS.csv
+!/final_model/analysis/wp8a_feature_collinearity.csv
+!/final_model/analysis/wp8a_method_agreement.csv
+!/final_model/analysis/wp8b_cohort_signature.csv
+!/final_model/analysis/wp8b_memory_kernel.csv
+!/final_model/analysis/wp8b_memory_length.csv
+!/final_model/analysis/wp8c_forward_sens.npz
+!/final_model/analysis/wp8c_sensitivity.csv
+!/final_model/analysis/wp8c_validation.csv
+!/final_model/analysis/wp8c_vs_wp8a.csv
+!/final_model/analysis/wp8d_permutation.csv
+!/final_model/analysis/wp8d_permutation_per_seed.csv
+!/final_model/analysis/wp8d_vs_wp8a.csv
+!/final_model/analysis/wp8e_morris.csv
+!/final_model/analysis/wp8e_sobol.csv
+!/final_model/analysis/wp8e_spec.csv
+!/final_model/analysis/wp8e_spec_sensitivity.csv
+!/final_model/analysis/wp8f_break_distribution.csv
+!/final_model/analysis/wp8f_breaks_per_seed.csv
+!/final_model/analysis/wp8f_event_match.csv
+# wp8h
+!/final_model/analysis/wp8h_coherence_check.csv
+!/final_model/analysis/wp8h_indicator_uncertainty.csv
+!/final_model/analysis/wp8h_indicator_uncertainty_nonauto.csv
+!/final_model/analysis/wp8h_nonauto_sampler_check.csv
+!/final_model/analysis/wp8h_provenance.json
+!/final_model/analysis/wp8h_transfer_matrix.csv
+!/final_model/analysis/wp8h_uncertainty_decomposition.csv
+!/final_model/analysis/wp8h_validation.csv
+# wp8
+!/final_model/analysis/wp8i_capability_table.csv
+# wp9  (Chapter 6)
+!/final_model/analysis/wp9_balanced_growth.csv
+!/final_model/analysis/wp9_ch1_parameters.csv
+!/final_model/analysis/wp9_check.json
+!/final_model/analysis/wp9_chi_decomposition.csv
+!/final_model/analysis/wp9_chi_decomposition_pooled.csv
+!/final_model/analysis/wp9_chi_level_gap.csv
+!/final_model/analysis/wp9_circularity_multiplier.csv
+# wp9_cp  (Chapter 6)
+!/final_model/analysis/wp9_cp_check.json
+!/final_model/analysis/wp9_cp_chi_decomposition.csv
+!/final_model/analysis/wp9_cp_chi_decomposition_pooled.csv
+!/final_model/analysis/wp9_cp_denominator.csv
+!/final_model/analysis/wp9_cp_dilution.csv
+!/final_model/analysis/wp9_cp_dilution_per_seed.csv
+!/final_model/analysis/wp9_cp_dilution_pooled.csv
+!/final_model/analysis/wp9_cp_fit_quality.csv
+!/final_model/analysis/wp9_cp_fit_quality_per_seed.csv
+!/final_model/analysis/wp9_cp_guard.csv
+!/final_model/analysis/wp9_cp_h2_verdict.csv
+!/final_model/analysis/wp9_cp_identification.csv
+!/final_model/analysis/wp9_cp_leave_one_driver_out.csv
+!/final_model/analysis/wp9_cp_mechanism.csv
+!/final_model/analysis/wp9_cp_numerator.csv
+!/final_model/analysis/wp9_cp_predictions.csv
+!/final_model/analysis/wp9_cp_registration.csv
+!/final_model/analysis/wp9_cp_slope_by_fit_subset.csv
+!/final_model/analysis/wp9_cp_slope_vs_fit.csv
+# wp9  (Chapter 6)
+!/final_model/analysis/wp9_dilution.csv
+!/final_model/analysis/wp9_dilution_per_seed.csv
+!/final_model/analysis/wp9_dilution_pooled.csv
+!/final_model/analysis/wp9_energy.csv
+!/final_model/analysis/wp9_ge_amplification.csv
+!/final_model/analysis/wp9_hypothesis_table.csv
+!/final_model/analysis/wp9_intensity_of_use.csv
+!/final_model/analysis/wp9_intensity_of_use_per_seed.csv
+!/final_model/analysis/wp9_invariance.csv
+!/final_model/analysis/wp9_invariance_coefficients.csv
+!/final_model/analysis/wp9_multiplier.csv
+!/final_model/analysis/wp9_multiplier_per_seed.csv
+!/final_model/analysis/wp9_recovery_branch.csv
+!/final_model/analysis/wp9_recovery_capacity.csv
+!/final_model/analysis/wp9_registration.csv
+!/final_model/analysis/wp9_s_rho.csv
+!/final_model/analysis/wp9_secondary_route_mix.csv
+!/final_model/analysis/wp9_stock_asymmetry.csv
+!/final_model/analysis/wp9_substitutability.csv
+!/final_model/analysis/wp9_validation.csv
+# wp10
+!/final_model/analysis/wp10_fitted_lifetimes_summary.csv
+!/final_model/analysis/wp10_gradient_check.csv
+!/final_model/analysis/wp10_noop_check.csv
+!/final_model/analysis/wp10_refit_lifetimes.csv
+!/final_model/analysis/wp10_refit_paired.csv
+!/final_model/analysis/wp10_refit_per_component.csv
+!/final_model/analysis/wp10_refit_per_seed.csv
+!/final_model/analysis/wp10_refit_summary.csv
+!/final_model/analysis/wp10_shape_by_period.csv
+!/final_model/analysis/wp10_shape_counterfactual_paired.csv
+!/final_model/analysis/wp10_shape_counterfactual_per_seed.csv
+!/final_model/analysis/wp10_shape_counterfactual_summary.csv
+!/final_model/analysis/wp10_structure.csv
+!/final_model/analysis/wp10_wp8b_discriminator.csv
+# wp11a
+!/final_model/analysis/wp11a_fit_status.csv
+!/final_model/analysis/wp11a_frequency_value.csv
+!/final_model/analysis/wp11a_noise_replicates.csv
+!/final_model/analysis/wp11a_noise_spread.csv
+!/final_model/analysis/wp11a_operator_check.csv
+!/final_model/analysis/wp11a_paired_vs_annual.csv
+!/final_model/analysis/wp11a_per_seed.csv
+!/final_model/analysis/wp11a_prediction_check.csv
+!/final_model/analysis/wp11a_span_value.csv
+!/final_model/analysis/wp11a_spectrum.csv
+!/final_model/analysis/wp11a_summary.csv
+# wp11b
+!/final_model/analysis/wp11b_fisher.csv
+!/final_model/analysis/wp11b_fisher_per_seed.csv
+!/final_model/analysis/wp11b_observation.csv
+!/final_model/analysis/wp11b_overlap.csv
+!/final_model/analysis/wp11b_status.csv
+!/final_model/analysis/wp11b_verdict.csv
+# wp11c
+!/final_model/analysis/wp11c_already_reported.csv
+!/final_model/analysis/wp11c_candidates.csv
+!/final_model/analysis/wp11c_design_response.csv
+!/final_model/analysis/wp11c_dopt.csv
+!/final_model/analysis/wp11c_frequency_decomposition.csv
+!/final_model/analysis/wp11c_ranking_stability.csv
+!/final_model/analysis/wp11c_ridge_stability.csv
+!/final_model/analysis/wp11c_statements.csv
+!/final_model/analysis/wp11c_validation.csv
+!/final_model/analysis/wp11c_validation_per_seed.csv
+!/final_model/analysis/wp11c_voi_headline.csv
+!/final_model/analysis/wp11c_voi_per_seed.csv
+!/final_model/analysis/wp11c_voi_ranking.csv
+!/final_model/analysis/wp11c_wp11a_resolution.csv
+!/final_model/analysis/wp11c_wp11a_validation.csv
+!/final_model/analysis/wp11c_wp3_agreement.csv
+# wp11d
+!/final_model/analysis/wp11d_crossover.csv
+!/final_model/analysis/wp11d_determinism.csv
+!/final_model/analysis/wp11d_fit_status.csv
+!/final_model/analysis/wp11d_matched_n.csv
+!/final_model/analysis/wp11d_per_fit.csv
+!/final_model/analysis/wp11d_per_seed.csv
+!/final_model/analysis/wp11d_saturation.csv
+!/final_model/analysis/wp11d_scaling.csv
+# wp11e  (Chapter 6)
+!/final_model/analysis/wp11e_cobweb.csv
+!/final_model/analysis/wp11e_market_dynamics.csv
+!/final_model/analysis/wp11e_published_band.csv
+!/final_model/analysis/wp11e_shortrun_per_seed.csv
+!/final_model/analysis/wp11e_single_tone.csv
+!/final_model/analysis/wp11e_survival.csv
+# wp11f
+!/final_model/analysis/wp11f_amplitude_bound.csv
+!/final_model/analysis/wp11f_attenuation_bias.csv
+!/final_model/analysis/wp11f_closed_form.csv
+!/final_model/analysis/wp11f_statements.csv
+!/final_model/analysis/wp11f_surface_per_phase.csv
+!/final_model/analysis/wp11f_transfer.csv
+!/final_model/analysis/wp11f_transfer_per_seed.csv
+# wp11g
+!/final_model/analysis/wp11g_observables.csv
+# wp11h  (Chapter 6)
+!/final_model/analysis/wp11h_aggregation_bias.csv
+!/final_model/analysis/wp11h_bias_vs_n.csv
+!/final_model/analysis/wp11h_estimand_choice.csv
+!/final_model/analysis/wp11h_estimand_ladder.csv
+!/final_model/analysis/wp11h_floor_tracking.csv
+!/final_model/analysis/wp11h_matched.csv
+!/final_model/analysis/wp11h_n_effect.csv
+!/final_model/analysis/wp11h_per_seed.csv
+!/final_model/analysis/wp11h_replicates.csv
+!/final_model/analysis/wp11h_season_split.csv
+!/final_model/analysis/wp11h_slopes.csv
+!/final_model/analysis/wp11h_statements.csv
+# wp10b (Chapter 6) keeps its tables in a sub-folder
+!/final_model/analysis/wp10b/
+/final_model/analysis/wp10b/*
+!/final_model/analysis/wp10b/wp10b_summary.csv
+!/final_model/analysis/wp10b/wp10b_paired.csv
+!/final_model/analysis/wp10b/wp10b_fitted_lifetimes.csv
+!/final_model/analysis/wp10b/wp10b_repro_check.csv
+
+# ---- 8. masked copies of the result files that contain observed values ----
+!/final_model/masked_results/
+/final_model/masked_results/*
+!/final_model/masked_results/manifest.json
+!/final_model/masked_results/restore_map.npz
+!/final_model/masked_results/anchor_v4/
+/final_model/masked_results/anchor_v4/*
+!/final_model/masked_results/anchor_v4/pred_seed0.npz
+!/final_model/masked_results/anchor_v4/pred_seed1.npz
+!/final_model/masked_results/anchor_v4/pred_seed10.npz
+!/final_model/masked_results/anchor_v4/pred_seed11.npz
+!/final_model/masked_results/anchor_v4/pred_seed12.npz
+!/final_model/masked_results/anchor_v4/pred_seed13.npz
+!/final_model/masked_results/anchor_v4/pred_seed14.npz
+!/final_model/masked_results/anchor_v4/pred_seed15.npz
+!/final_model/masked_results/anchor_v4/pred_seed16.npz
+!/final_model/masked_results/anchor_v4/pred_seed17.npz
+!/final_model/masked_results/anchor_v4/pred_seed18.npz
+!/final_model/masked_results/anchor_v4/pred_seed19.npz
+!/final_model/masked_results/anchor_v4/pred_seed2.npz
+!/final_model/masked_results/anchor_v4/pred_seed20.npz
+!/final_model/masked_results/anchor_v4/pred_seed21.npz
+!/final_model/masked_results/anchor_v4/pred_seed22.npz
+!/final_model/masked_results/anchor_v4/pred_seed23.npz
+!/final_model/masked_results/anchor_v4/pred_seed24.npz
+!/final_model/masked_results/anchor_v4/pred_seed25.npz
+!/final_model/masked_results/anchor_v4/pred_seed26.npz
+!/final_model/masked_results/anchor_v4/pred_seed27.npz
+!/final_model/masked_results/anchor_v4/pred_seed28.npz
+!/final_model/masked_results/anchor_v4/pred_seed29.npz
+!/final_model/masked_results/anchor_v4/pred_seed3.npz
+!/final_model/masked_results/anchor_v4/pred_seed30.npz
+!/final_model/masked_results/anchor_v4/pred_seed31.npz
+!/final_model/masked_results/anchor_v4/pred_seed32.npz
+!/final_model/masked_results/anchor_v4/pred_seed33.npz
+!/final_model/masked_results/anchor_v4/pred_seed34.npz
+!/final_model/masked_results/anchor_v4/pred_seed4.npz
+!/final_model/masked_results/anchor_v4/pred_seed5.npz
+!/final_model/masked_results/anchor_v4/pred_seed6.npz
+!/final_model/masked_results/anchor_v4/pred_seed7.npz
+!/final_model/masked_results/anchor_v4/pred_seed8.npz
+!/final_model/masked_results/anchor_v4/pred_seed9.npz
+!/final_model/masked_results/anchor_gam/
+/final_model/masked_results/anchor_gam/*
+!/final_model/masked_results/anchor_gam/pred_seed0.npz
+!/final_model/masked_results/analysis/
+/final_model/masked_results/analysis/*
+!/final_model/masked_results/analysis/wp10_chain_validation.csv
+!/final_model/masked_results/analysis/wp10_shape_counterfactual.npz
+!/final_model/masked_results/analysis/wp1a_alpha_error_by_year.csv
+!/final_model/masked_results/analysis/wp1f_mass_imbalance.csv
+!/final_model/masked_results/analysis/wp2a_A_of_t.npz
+!/final_model/masked_results/analysis/wp2c_eigen_sensitivity.npz
+!/final_model/masked_results/analysis/wp2e_indicator_sensitivity.npz
+!/final_model/masked_results/analysis/wp2f_bifurcation_years.csv
+!/final_model/masked_results/analysis/wp2f_bifurcation_years_combined.csv
+!/final_model/masked_results/analysis/wp2f_bifurcation_years_laplace.csv
+!/final_model/masked_results/analysis/wp2f_feasibility.csv
+!/final_model/masked_results/analysis/wp2f_feasibility_combined.csv
+!/final_model/masked_results/analysis/wp2f_feasibility_laplace.csv
+!/final_model/masked_results/analysis/wp2f_simplex_feasibility.csv
+!/final_model/masked_results/analysis/wp2f_simplex_feasibility_combined.csv
+!/final_model/masked_results/analysis/wp2f_simplex_feasibility_laplace.csv
+!/final_model/masked_results/analysis/wp2f_structural_stability.npz
+!/final_model/masked_results/analysis/wp2f_structural_stability_combined.npz
+!/final_model/masked_results/analysis/wp2f_structural_stability_laplace.npz
+!/final_model/masked_results/analysis/wp2f_z_table.csv
+!/final_model/masked_results/analysis/wp2f_z_table_combined.csv
+!/final_model/masked_results/analysis/wp2f_z_table_laplace.csv
+!/final_model/masked_results/analysis/wp2g_equilibrium.npz
+!/final_model/masked_results/analysis/wp2g_saturation.csv
+!/final_model/masked_results/analysis/wp2g_time_to_saturation.csv
+!/final_model/masked_results/analysis/wp4c_marginals.csv
+!/final_model/masked_results/analysis/wp4c_sigma.npz
+!/final_model/masked_results/analysis/wp4c_vs_seed_spread.csv
+!/final_model/masked_results/analysis/wp7_coefficient_response.csv
+!/final_model/masked_results/analysis/wp7_driver_paths.csv
+!/final_model/masked_results/analysis/wp7_effects_by_year.csv
+!/final_model/masked_results/analysis/wp8a_attribution.npz
+!/final_model/masked_results/analysis/wp8b_influence.npz
+!/final_model/masked_results/analysis/wp8h_coefficients.csv
+
+# ---- 9. ALWAYS IGNORED (overrides everything above) ----------------------
+# ILZSG-derived dataset: no permission to redistribute
+zinc_dataset*.xlsx
+*.xlsx
+~$*
+# original result files that store observed values (masked copies in section 8)
+/final_model/anchor_v4/pred_seed*.npz
+/final_model/anchor_gam/pred_seed*.npz
+/final_model/analysis/wp10_chain_validation.csv
+/final_model/analysis/wp10_shape_counterfactual.npz
+/final_model/analysis/wp1a_alpha_error_by_year.csv
+/final_model/analysis/wp1f_mass_imbalance.csv
+/final_model/analysis/wp2a_A_of_t.npz
+/final_model/analysis/wp2c_eigen_sensitivity.npz
+/final_model/analysis/wp2e_indicator_sensitivity.npz
+/final_model/analysis/wp2f_bifurcation_years.csv
+/final_model/analysis/wp2f_bifurcation_years_combined.csv
+/final_model/analysis/wp2f_bifurcation_years_laplace.csv
+/final_model/analysis/wp2f_feasibility.csv
+/final_model/analysis/wp2f_feasibility_combined.csv
+/final_model/analysis/wp2f_feasibility_laplace.csv
+/final_model/analysis/wp2f_simplex_feasibility.csv
+/final_model/analysis/wp2f_simplex_feasibility_combined.csv
+/final_model/analysis/wp2f_simplex_feasibility_laplace.csv
+/final_model/analysis/wp2f_structural_stability.npz
+/final_model/analysis/wp2f_structural_stability_combined.npz
+/final_model/analysis/wp2f_structural_stability_laplace.npz
+/final_model/analysis/wp2f_z_table.csv
+/final_model/analysis/wp2f_z_table_combined.csv
+/final_model/analysis/wp2f_z_table_laplace.csv
+/final_model/analysis/wp2g_equilibrium.npz
+/final_model/analysis/wp2g_saturation.csv
+/final_model/analysis/wp2g_time_to_saturation.csv
+/final_model/analysis/wp4c_marginals.csv
+/final_model/analysis/wp4c_sigma.npz
+/final_model/analysis/wp4c_vs_seed_spread.csv
+/final_model/analysis/wp7_coefficient_response.csv
+/final_model/analysis/wp7_driver_paths.csv
+/final_model/analysis/wp7_effects_by_year.csv
+/final_model/analysis/wp8a_attribution.npz
+/final_model/analysis/wp8b_influence.npz
+/final_model/analysis/wp8h_coefficients.csv
+# system and Python clutter
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.claude/
+*.log
+*.tmp

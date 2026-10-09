@@ -1,0 +1,46 @@
+seed,check,value
+0,max_abs_J_minus_J_directadjoint,1.0135195055438473e-07
+0,max_abs_J,2.7861821546731504
+0,rel_J_vs_directadjoint,3.637664191639129e-08
+0,rel_J_vs_tight_solver,0.0010109779637569336
+0,solver_noise_floor_resid,0.004784526426405183
+0,max_rel_err_central_difference_analytic,2.781704779276222e-10
+0,max_rel_err_central_difference_ode,7.151653862945512e-05
+0,best_h_analytic,0.0001
+0,best_h_ode,0.01
+0,n_probe,4.0
+0,||r||^2 vs stageB_window_loss (rel),1.6115956036973766e-13
+1,||r||^2 vs stageB_window_loss (rel),1.5414711307579405e-13
+2,||r||^2 vs stageB_window_loss (rel),1.5275819778646427e-13
+3,||r||^2 vs stageB_window_loss (rel),1.5631184069105333e-13
+4,||r||^2 vs stageB_window_loss (rel),1.6352432102719636e-13
+5,||r||^2 vs stageB_window_loss (rel),1.6094735121491685e-13
+6,||r||^2 vs stageB_window_loss (rel),1.5038386262253377e-13
+7,||r||^2 vs stageB_window_loss (rel),1.5618410300392847e-13
+8,||r||^2 vs stageB_window_loss (rel),1.6251074840958892e-13
+9,||r||^2 vs stageB_window_loss (rel),1.555940136989512e-13
+10,||r||^2 vs stageB_window_loss (rel),1.5147357236383037e-13
+11,||r||^2 vs stageB_window_loss (rel),1.6871244562965727e-13
+12,||r||^2 vs stageB_window_loss (rel),1.6808904426656442e-13
+13,||r||^2 vs stageB_window_loss (rel),1.5752883787781676e-13
+14,||r||^2 vs stageB_window_loss (rel),1.5523989507520558e-13
+15,||r||^2 vs stageB_window_loss (rel),1.5722004137785708e-13
+16,||r||^2 vs stageB_window_loss (rel),1.6666822142007216e-13
+17,||r||^2 vs stageB_window_loss (rel),1.5936733239659063e-13
+18,||r||^2 vs stageB_window_loss (rel),1.5793212936477037e-13
+19,||r||^2 vs stageB_window_loss (rel),1.4836681991107245e-13
+20,||r||^2 vs stageB_window_loss (rel),1.5342299203443567e-13
+21,||r||^2 vs stageB_window_loss (rel),1.5456569139700019e-13
+22,||r||^2 vs stageB_window_loss (rel),1.6398592229714621e-13
+23,||r||^2 vs stageB_window_loss (rel),1.5088992882340914e-13
+24,||r||^2 vs stageB_window_loss (rel),1.4971580003354622e-13
+25,||r||^2 vs stageB_window_loss (rel),1.5243636533396528e-13
+26,||r||^2 vs stageB_window_loss (rel),1.5577548682553727e-13
+27,||r||^2 vs stageB_window_loss (rel),1.6630149187848878e-13
+28,||r||^2 vs stageB_window_loss (rel),1.544155095834759e-13
+29,||r||^2 vs stageB_window_loss (rel),1.6407955739276515e-13
+30,||r||^2 vs stageB_window_loss (rel),1.6140430390224964e-13
+31,||r||^2 vs stageB_window_loss (rel),1.591855862304344e-13
+32,||r||^2 vs stageB_window_loss (rel),1.6467761453380912e-13
+33,||r||^2 vs stageB_window_loss (rel),1.6231632617562705e-13
+34,||r||^2 vs stageB_window_loss (rel),1.649840229485134e-13

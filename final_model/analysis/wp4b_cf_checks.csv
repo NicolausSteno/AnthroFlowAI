@@ -1,0 +1,5 @@
+tag,pins_noisy,gap_truth_vs_dense,gap_fit_vs_own_tight,gap_fit_vs_own_same_tol,gap_vs_persisted_S_pred,gap_exog_rebuild
+state_d1y_clean,False,2.8262938575723837e-08,0.002743722989066858,0.0,0.0,0.0
+base_d1y_clean,False,2.222232691186382e-08,0.0024362585573465614,0.0,0.0,0.0
+state_d1y_noisy,True,0.008338766322649542,0.003012138058688398,0.0,0.0,0.0
+base_d1y_noisy,True,0.008338766322649542,0.003030684345269001,0.0,0.0,0.0

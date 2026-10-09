@@ -1,0 +1,9 @@
+model,scope,slope,lo,hi,n,n_clusters,verdict
+ude,all arms,0.580117592205113,0.5138389891174256,0.8337187129837845,96,24,"partial pass-through, and neither 0 nor 1"
+ude,Delta <= 1 yr,0.6330594437148995,0.46867070234387787,1.3904115157136572,84,21,consistent with inheriting the whole floor
+ude,base twin only,0.5653742332690628,0.36016813310671564,0.7278674130742533,80,20,"partial pass-through, and neither 0 nor 1"
+ude,"base, Delta <= 1 yr",0.482301743898069,-0.2191182377079133,0.9572492291632235,68,17,consistent with escaping the floor entirely
+arx,all arms,0.18560877369240408,0.03753002359002414,0.8380916501869905,96,24,"partial pass-through, and neither 0 nor 1"
+arx,Delta <= 1 yr,0.6534394107898157,0.42041993840844727,1.5508641976049173,84,21,consistent with inheriting the whole floor
+arx,base twin only,0.05825592887048362,-0.013563413918938411,0.7951380314431464,80,20,consistent with escaping the floor entirely
+arx,"base, Delta <= 1 yr",0.759353761732538,-0.35400452922390585,1.4968152677276634,68,17,cannot separate full pass-through from none

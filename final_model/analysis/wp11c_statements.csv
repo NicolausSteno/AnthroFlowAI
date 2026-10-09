@@ -1,0 +1,61 @@
+statement,candidate,freq,coef,reduction_pct,rel_sd_base_pct,rel_sd_new_pct,hl_lo,hl_hi
+Monthly reporting of refined metal stock,refined_stock,monthly,alpha_cc,2.148349383942394,1.8336683649651062,1.793690090531278,2.0578669420374176,2.2937388533310568
+Monthly reporting of refined metal stock,refined_stock,monthly,alpha_refc,39.78342958896177,3.622748133578155,2.1753815391162012,38.63289169108779,40.329028831038045
+Monthly reporting of refined metal stock,refined_stock,monthly,alpha_dr,0.1666547054209877,6.546316501537541,6.534962747985651,0.1619009473520172,0.21341919269993181
+Monthly reporting of refined metal stock,refined_stock,monthly,alpha_win,0.15736314176144628,7.674691074431486,7.652577755339552,0.14979838146777502,0.17735527375968285
+Monthly reporting of refined metal stock,refined_stock,monthly,tau_olds,0.1624056981267441,7.981694326983857,7.968247377269265,0.1447784662782503,0.17529111292532984
+Monthly reporting of refined metal stock,refined_stock,monthly,f_cohort_20yr,0.5665746563782381,24.074983304902975,23.95467528281459,0.5063161160731522,0.7089463531974927
+Monthly reporting of refined production,refined_production,monthly,alpha_cc,40.06080309099889,1.8336683649651062,1.1172119478346976,39.523038059131395,40.578949509407074
+Monthly reporting of refined production,refined_production,monthly,alpha_refc,2.174527318190389,3.622748133578155,3.519615870494287,2.0671808086844545,2.400214506588755
+Monthly reporting of refined production,refined_production,monthly,alpha_dr,0.8632834123401767,6.546316501537541,6.488928056754446,0.7765159899770058,0.9274731344327325
+Monthly reporting of refined production,refined_production,monthly,alpha_win,31.55384490415649,7.674691074431486,5.2423428303336586,30.995289175896247,32.12536689630756
+Monthly reporting of refined production,refined_production,monthly,tau_olds,0.7072229136446118,7.981694326983857,7.875592134573314,0.692145372731523,0.9475195701081629
+Monthly reporting of refined production,refined_production,monthly,f_cohort_20yr,1.474467171738536,24.074983304902975,23.6630355606907,1.286889471844288,1.591405317265615
+Monthly reporting of concentrate production,concentrate_production,monthly,alpha_cc,0.0,1.8336683649651062,1.8336683649651062,0.0,0.0
+Monthly reporting of concentrate production,concentrate_production,monthly,alpha_refc,0.0,3.622748133578155,3.622748133578155,0.0,0.0
+Monthly reporting of concentrate production,concentrate_production,monthly,alpha_dr,0.0,6.546316501537541,6.546316501537541,0.0,0.0
+Monthly reporting of concentrate production,concentrate_production,monthly,alpha_win,0.0,7.674691074431486,7.674691074431486,0.0,0.0
+Monthly reporting of concentrate production,concentrate_production,monthly,tau_olds,0.0,7.981694326983857,7.981694326983857,0.0,0.0
+Monthly reporting of concentrate production,concentrate_production,monthly,f_cohort_20yr,0.0,24.074983304902975,24.074983304902975,0.0,0.0
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,alpha_cc,0.03232113407404258,1.8336683649651062,1.8329044484509471,0.029881260317393687,0.03643376103538154
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,alpha_refc,0.03521255527516587,3.622748133578155,3.6219780611836008,0.0332784899062577,0.04153162182286563
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,alpha_dr,1.1391648388336728,6.546316501537541,6.483678904993802,1.0246591316624531,1.2343301631263737
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,alpha_win,0.1880569016717737,7.674691074431486,7.645416725553613,0.17301695099947723,0.2985624150824262
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,tau_olds,18.32585437612725,7.981694326983857,6.478802900000279,17.812544976246805,19.014439004652807
+Annual reporting of old-scrap collection tonnage,scrap_collection,annual,f_cohort_20yr,2.0644622363721554,24.074983304902975,23.672217516253667,1.6776350761519787,2.3948052497201777
+Annual end-of-life product-level composition,eol_composition,annual,alpha_cc,0.13132451105362097,1.8336683649651062,1.8309347033543155,0.1283207602190084,0.16259812913007599
+Annual end-of-life product-level composition,eol_composition,annual,alpha_refc,0.12392965629595132,3.622748133578155,3.6165372771632427,0.11445989205123297,0.14385589752402006
+Annual end-of-life product-level composition,eol_composition,annual,alpha_dr,0.3399348070907138,6.546316501537541,6.525995988234125,0.31481730685559706,0.3742251986362022
+Annual end-of-life product-level composition,eol_composition,annual,alpha_win,0.16429763545640075,7.674691074431486,7.6668871721433,0.16058619148756614,0.23749501617159052
+Annual end-of-life product-level composition,eol_composition,annual,tau_olds,0.9128287257695322,7.981694326983857,7.894409682834607,0.8858475173379676,0.9854054364113463
+Annual end-of-life product-level composition,eol_composition,annual,f_cohort_20yr,64.48575924556688,24.074983304902975,8.656821601251737,63.38856625848692,65.19883402383427
+Quarterly reporting of refined metal stock,refined_stock,quarterly,alpha_cc,0.89115319934292,1.8336683649651062,1.8171367450012714,0.8576949504786158,0.9738847345685087
+Quarterly reporting of refined metal stock,refined_stock,quarterly,alpha_refc,23.74295381777514,3.622748133578155,2.750800490982146,22.96025202774117,24.458456813382888
+Quarterly reporting of refined metal stock,refined_stock,quarterly,alpha_dr,0.08958879161733435,6.546316501537541,6.539944676469364,0.08628380440365291,0.11309060950782102
+Quarterly reporting of refined metal stock,refined_stock,quarterly,alpha_win,0.08503929216674422,7.674691074431486,7.662882979823006,0.08076843756989471,0.09851797567729803
+Quarterly reporting of refined metal stock,refined_stock,quarterly,tau_olds,0.08609211817773854,7.981694326983857,7.974459764868317,0.07622918336732676,0.09254459478583721
+Quarterly reporting of refined metal stock,refined_stock,quarterly,f_cohort_20yr,0.3100736124957759,24.074983304902975,24.031221976285387,0.26921132906010947,0.38565125361781916
+Quarterly reporting of refined production,refined_production,quarterly,alpha_cc,27.437382027494362,1.8336683649651062,1.3450072504835517,26.712179425988364,28.095152997897856
+Quarterly reporting of refined production,refined_production,quarterly,alpha_refc,1.5848751711887488,3.622748133578155,3.5477290179729466,1.508370588436353,1.758973570455158
+Quarterly reporting of refined production,refined_production,quarterly,alpha_dr,0.5443298451253797,6.546316501537541,6.50945449072525,0.48312390518377435,0.5913485815948194
+Quarterly reporting of refined production,refined_production,quarterly,alpha_win,21.39775115003346,7.674691074431486,6.014931020639195,20.956809580769246,22.122060978214073
+Quarterly reporting of refined production,refined_production,quarterly,tau_olds,0.4474151588216069,7.981694326983857,7.902895197682082,0.4246292113502359,0.6003083810222298
+Quarterly reporting of refined production,refined_production,quarterly,f_cohort_20yr,0.8073895120618291,24.074983304902975,23.855286904274596,0.712566804410153,0.88415105132571
+Quarterly reporting of concentrate production,concentrate_production,quarterly,alpha_cc,0.0,1.8336683649651062,1.8336683649651062,0.0,0.0
+Quarterly reporting of concentrate production,concentrate_production,quarterly,alpha_refc,0.0,3.622748133578155,3.622748133578155,0.0,0.0
+Quarterly reporting of concentrate production,concentrate_production,quarterly,alpha_dr,0.0,6.546316501537541,6.546316501537541,0.0,0.0
+Quarterly reporting of concentrate production,concentrate_production,quarterly,alpha_win,0.0,7.674691074431486,7.674691074431486,0.0,0.0
+Quarterly reporting of concentrate production,concentrate_production,quarterly,tau_olds,0.0,7.981694326983857,7.981694326983857,0.0,0.0
+Quarterly reporting of concentrate production,concentrate_production,quarterly,f_cohort_20yr,0.0,24.074983304902975,24.074983304902975,0.0,0.0
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,alpha_cc,0.09653901400532572,1.8336683649651062,1.8316180023491213,0.08930201229133683,0.11040475522759441
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,alpha_refc,0.0984741556687041,3.622748133578155,3.620534074865035,0.0914491819026031,0.12066868889748505
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,alpha_dr,2.1836025659081937,6.546316501537541,6.427772275916372,1.899813364409364,2.3578741965229524
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,alpha_win,0.3571408206815896,7.674691074431486,7.599956997917139,0.35025269094349776,0.6931579694922585
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,tau_olds,38.31670452311013,7.981694326983857,4.876435914543002,37.903139753188555,39.80355174759481
+Quarterly reporting of old-scrap collection tonnage,scrap_collection,quarterly,f_cohort_20yr,2.9670260366234658,24.074983304902975,23.364014852344763,2.584923365383834,3.5985164508364864
+Quarterly end-of-life product-level composition,eol_composition,quarterly,alpha_cc,0.190932380025588,1.8336683649651062,1.8296693858371968,0.18570719907582411,0.2271028863168545
+Quarterly end-of-life product-level composition,eol_composition,quarterly,alpha_refc,0.1816088481671585,3.622748133578155,3.6144364851714723,0.16907330043904323,0.21174350390867347
+Quarterly end-of-life product-level composition,eol_composition,quarterly,alpha_dr,0.4438855652744822,6.546316501537541,6.51879429393382,0.412520254987514,0.5037801763790373
+Quarterly end-of-life product-level composition,eol_composition,quarterly,alpha_win,0.2663613639479312,7.674691074431486,7.662688892719977,0.24549217554387104,0.3801429247740018
+Quarterly end-of-life product-level composition,eol_composition,quarterly,tau_olds,1.06190566722153,7.981694326983857,7.888303424306742,1.005430990106837,1.1416713817538005
+Quarterly end-of-life product-level composition,eol_composition,quarterly,f_cohort_20yr,70.28074463305514,24.074983304902975,7.209155258124822,69.51295814235985,71.00758229405182

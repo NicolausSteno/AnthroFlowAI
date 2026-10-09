@@ -1,0 +1,3 @@
+id,statement,criterion,held,evidence
+P1,the per-driver denominator dg_throughput/dtheta_j stops straddling zero over Ch1's activity + population block,"more of the 6 block drivers have a Hodges-Lehmann interval on dg_throughput/dtheta excluding zero than under learn_cp: false, and the block's sign agreement is >= 5/6",False,block drivers with an interval excluding zero: 2/6 -> 1/6; sign agreement 6/6 -> 3/6; |dg_thr| x3.6
+P2,the pooled origin regression acquires a net dchi/dg whose Hodges-Lehmann interval excludes zero,"the 'total' channel row of the pooled table, on the Ch1 activity + population block, has survives == True",True,"net dchi/dg +0.33 [-0.36, +0.87] -> -0.38 [-0.48, -0.27]"

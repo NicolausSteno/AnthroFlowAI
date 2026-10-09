@@ -1,0 +1,8 @@
+check,ok,detail
+wp6b_curve_loads_under_wp11b_loader,True,"16 (channel, delta) cells, metric=alpha_relRMSE_pct"
+G1_monotone_in_delta[alpha_cc],True,"3.32,6.05,9.42,13.8"
+G1_monotone_in_delta[alpha_dr],True,"11,18.7,29.5,35"
+G1_monotone_in_delta[alpha_refc],True,"9.73,14.8,30.4,46.7"
+G1_monotone_in_delta[alpha_win],True,"10.3,13.1,25.2,32.3"
+wp11a_curve_present,False,/Users/nicola/Repos/AnthroFlowAI/final_model/analysis/wp11a_frequency_value.csv
+wp11b_gate,False,"PASS/FAIL computable only when both curves exist; WP-6b half now supplied, WP-11a still outstanding"

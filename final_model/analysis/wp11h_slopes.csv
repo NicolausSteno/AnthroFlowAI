@@ -1,0 +1,9 @@
+model,regressor,family,split,arms,slope,lo,hi,n,n_clusters,verdict
+ude,log_N,length,common,resample,0.0008697769834416305,-0.008693267009974387,0.00490858158985748,28,7,no detectable N dependence
+ude,log_delta,resolution,fitted,resample,0.17827609843135495,-0.282244725764448,0.5169342904411235,16,4,no detectable Delta dependence
+ude,log_delta,resolution,fitted,resample+coarse,0.5446299568036939,0.19764583343981554,0.8441594727056723,28,7,grows with Delta
+arx,log_N,length,common,resample,0.007805731591921123,-0.04600858893507196,0.08152674149082939,28,7,no detectable N dependence
+arx,log_delta,resolution,fitted,resample,0.7616946485241912,-0.25944163525394626,1.668538718288357,16,4,no detectable Delta dependence
+arx,log_delta,resolution,fitted,resample+coarse,0.4275754942468563,-0.15597456396458234,0.6930468785047748,28,7,no detectable Delta dependence
+floor,log_delta,resolution,fitted,resample,0.9976752187329309,0.9943049401450987,1.0051602792805039,16,4,grows with Delta
+floor,log_delta,resolution,fitted,resample+coarse,0.87801014313758,0.7688537116734484,0.9425614826725578,28,7,grows with Delta

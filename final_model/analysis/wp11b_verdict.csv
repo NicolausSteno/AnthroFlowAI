@@ -1,0 +1,6 @@
+arm,n_channels,n_pass,threshold,verdict,is_the_gate
+gate_curves_absolute_level,4,2,3,FAIL,False
+gate_curves_truth_currency_NOT_the_gate,4,3,3,PASS,False
+surrogate_information,4,4,3,PASS,False
+surrogate_observation,4,0,3,FAIL,False
+wp11b_gate,4,2,3,FAIL,True

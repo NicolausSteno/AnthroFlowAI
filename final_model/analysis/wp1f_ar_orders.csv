@@ -1,0 +1,73 @@
+spec,flow,lag_order,n_drivers,drivers,sigma2,n_eff,test_relRMSE
+ARX-aic,concentrate_production,1,3,Energy index;US Industrial Production Total Index;EU28 Industrial Production Total Index,0.0003395982783932948,26,12.649670298592394
+ARX-aic,concentrate_consumption,0,3,GDP;Producer Price Index of Non-ferrous Scrap;Full metal real index,0.00040944423052372394,27,12.5448200680191
+ARX-aic,refined_consumption,0,3,US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD),0.0006497080016267635,27,19.07156701700591
+ARX-aic,waelz_input,2,3,Full metal real index;China Total Manufacturing Output;Population,0.002853068402687251,25,92.65237885612335
+ARX-aic,direct_reuse_recycling,2,3,GDP;Full metal real index;Population,0.019931793657467,25,62.258083994568096
+ARX-aic,end_of_life,1,3,GDP;EU28 Industrial Production Total Index;Producer Price Index of Non-ferrous Scrap,1.917706758723716e-05,26,7.121421756025295
+ARX-aic,old_scrap_recovery,3,3,Energy index;GDP;Population,0.005109084965277365,24,35.6311785666901
+ARX-aic,waelz_recycling,2,3,Full metal real index;China Total Manufacturing Output;Population,0.002721485041586198,25,93.30767132538742
+ARX-aic,waelz_losses,1,3,GDP;Full metal real index;Population,0.011338053892978026,26,58.401951512552166
+ARX-aic,primary_refining,0,3,GDP;Producer Price Index of Non-ferrous Scrap;Full metal real index,0.0004669894490076155,27,13.169396212040718
+ARX-aic,refinery_losses,0,3,Energy index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output,0.001273447730298938,27,44.95112766384956
+ARX-aic,total_products_into_use,0,3,Zinc real price;US Industrial Production Total Index;Full metal real index,0.0009151565136955788,27,21.22657235272572
+ARX-aic,inuse_inflow,0,3,Zinc real price;US Industrial Production Total Index;Full metal real index,0.0009422080508798912,27,19.990025403151666
+ARX-aic,dissipative_use,0,3,GDP;EU28 Industrial Production Total Index;Full metal real index,0.00991833475823119,27,21.985972679610356
+ARX-aic,first_use_new_scrap,0,3,GDP;Full metal real index;China Total Manufacturing Output,0.0011027363562971602,27,39.28390823916412
+ARX-aic,first_use_losses,0,3,GDP;China All Industry Value Added (Constant 2015 USD);Full metal real index,0.0028857660390297682,27,53.96553570018009
+ARX-aic,end_use_new_scrap,0,3,China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;China Total Manufacturing Output,0.001591377030115917,27,24.218974327573452
+ARX-aic,end_use_losses,0,3,GDP;Full metal real index;China Total Manufacturing Output,0.0011376741482710328,27,25.268635972234872
+AR-only,concentrate_production,1,0,,0.0007854732375437287,26,30.49345461159566
+AR-only,concentrate_consumption,1,0,,0.0007298250610048015,26,36.017256338804636
+AR-only,refined_consumption,1,0,,0.0010026536574328996,26,19.15739816264219
+AR-only,waelz_input,1,0,,0.005668839630952123,26,21.05613737958787
+AR-only,direct_reuse_recycling,1,0,,0.05472545224254378,26,48.363070516309875
+AR-only,end_of_life,1,0,,6.797150860885324e-05,26,7.1614928933715385
+AR-only,old_scrap_recovery,2,0,,0.019333085451547626,25,17.715283059025047
+AR-only,waelz_recycling,1,0,,0.005653672596309371,26,20.51952786885076
+AR-only,waelz_losses,1,0,,0.013841224992476106,26,23.035455864093098
+AR-only,primary_refining,1,0,,0.0007796736184808509,26,37.41759605966976
+AR-only,refinery_losses,1,0,,0.0026751148150410196,26,19.13036015817338
+AR-only,total_products_into_use,1,0,,0.002665471239436132,26,22.05986450323316
+AR-only,inuse_inflow,1,0,,0.002736184131792617,26,21.086008212470926
+AR-only,dissipative_use,1,0,,0.037667313261693876,26,70.82558334506145
+AR-only,first_use_new_scrap,1,0,,0.003173698653864671,26,11.244815175530386
+AR-only,first_use_losses,1,0,,0.007831996217305376,26,43.35461210595768
+AR-only,end_use_new_scrap,1,0,,0.0031418010496558064,26,15.303212831250965
+AR-only,end_use_losses,1,0,,0.0026587357571779117,26,15.8413591588808
+ARX-all,concentrate_production,1,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0003363239139589936,26,33.80777893051604
+ARX-all,concentrate_consumption,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.00042283537691337577,27,20.948409291283237
+ARX-all,refined_consumption,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.00045177182363631416,27,6.500862680669901
+ARX-all,waelz_input,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.005650508209420925,27,79.12308734152953
+ARX-all,direct_reuse_recycling,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.032252216223185984,27,97.6195765842673
+ARX-all,end_of_life,1,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,1.4593481644927611e-05,26,9.560370591917856
+ARX-all,old_scrap_recovery,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.01007876554697856,27,52.19329285217031
+ARX-all,waelz_recycling,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0054944652961810515,27,78.61604478532041
+ARX-all,waelz_losses,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.010755059039158098,27,74.4709565363801
+ARX-all,primary_refining,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.00044393363267447865,27,19.62064566546154
+ARX-all,refinery_losses,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0016309998215106479,27,123.88780763695208
+ARX-all,total_products_into_use,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0007898305969948407,27,48.52080718613118
+ARX-all,inuse_inflow,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0008190457791408837,27,48.87971214617337
+ARX-all,dissipative_use,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.007731672654203413,27,90.62800861882732
+ARX-all,first_use_new_scrap,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0011567521816847166,27,61.155560478524706
+ARX-all,first_use_losses,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0030513534514686564,27,79.79102680397754
+ARX-all,end_use_new_scrap,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0011161084081370615,27,51.32634859877294
+ARX-all,end_use_losses,0,13,Zinc real price;Energy index;GDP;US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;Precious metal index;Full metal real index;World Stock Market Capitalisation (% of GDP);China Total Manufacturing Output;Population,0.0012617860641815104,27,57.85892689937462
+ARX-aic-levels,concentrate_production,3,3,Energy index;US Industrial Production Total Index;EU28 Industrial Production Total Index,22937.30575305604,24,11.862854905593602
+ARX-aic-levels,concentrate_consumption,3,3,China All Industry Value Added (Constant 2015 USD);China Total Manufacturing Output;Population,20953.289594005102,24,14.766979746469868
+ARX-aic-levels,refined_consumption,3,3,Zinc real price;GDP;Population,29129.91622222353,24,12.545454742029044
+ARX-aic-levels,waelz_input,3,3,Producer Price Index of Non-ferrous Scrap;Real Treatment Charges;China Total Manufacturing Output,610.6537949892627,24,462.7278257011318
+ARX-aic-levels,direct_reuse_recycling,3,3,Energy index;Producer Price Index of Non-ferrous Scrap;Precious metal index,29542.172340294717,24,71.7879860073227
+ARX-aic-levels,end_of_life,3,3,GDP;EU28 Industrial Production Total Index;Real Treatment Charges,371.1827255110351,24,3.8343737905424704
+ARX-aic-levels,old_scrap_recovery,3,3,Energy index;Real Treatment Charges;Population,4066.6095893370316,24,18.658528307696823
+ARX-aic-levels,waelz_recycling,3,3,Precious metal index;China Total Manufacturing Output;Population,451.29526826369244,24,57.68356373301595
+ARX-aic-levels,waelz_losses,3,3,US Industrial Production Total Index;EU28 Industrial Production Total Index;China All Industry Value Added (Constant 2015 USD),40.031761740982375,24,122.51573948821492
+ARX-aic-levels,primary_refining,3,3,China All Industry Value Added (Constant 2015 USD);China Total Manufacturing Output;Population,22018.799845224774,24,15.394456308772112
+ARX-aic-levels,refinery_losses,3,3,Producer Price Index of Non-ferrous Scrap;Full metal real index;World Stock Market Capitalisation (% of GDP),255.36343982523903,24,16.434106816809926
+ARX-aic-levels,total_products_into_use,3,3,Energy index;GDP;Full metal real index,25559.13674391193,24,5.752323465249255
+ARX-aic-levels,inuse_inflow,3,2,GDP;Population,29196.418868435405,24,5.079923630152387
+ARX-aic-levels,dissipative_use,3,3,GDP;EU28 Industrial Production Total Index;Full metal real index,103.75874301739144,24,51.352745646934146
+ARX-aic-levels,first_use_new_scrap,3,3,GDP;EU28 Industrial Production Total Index;Full metal real index,533.1455057194735,24,15.81409778546056
+ARX-aic-levels,first_use_losses,3,3,Energy index;GDP;Full metal real index,6.392026078289244,24,44.38738016300993
+ARX-aic-levels,end_use_new_scrap,3,3,China All Industry Value Added (Constant 2015 USD);Producer Price Index of Non-ferrous Scrap;China Total Manufacturing Output,167.73077997080262,24,8.63675784641763
+ARX-aic-levels,end_use_losses,3,3,Energy index;GDP;Full metal real index,41.48747144456577,24,15.985988564845568

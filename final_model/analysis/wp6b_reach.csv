@@ -1,0 +1,31 @@
+series,delta,arrays_moved,dA,dgA,dB,dgB,reaches_loss,kind,reaches_stageA,reaches_stageB,route
+flow:refined_consumption,10,alpha_obs;flows_obs,66.437475679092,797.4371190855582,17.431084149230497,284.2597901697385,True,flow,True,True,alpha/tau target + dynamics
+flow:concentrate_consumption,10,alpha_obs;flows_obs,8.4802977926743,188.233776412909,5.302529348874923,59.0862380119116,True,flow,True,True,alpha/tau target + dynamics
+stock:Concentrate,10,alpha_obs;stocks_obs,0.2375154250048243,2.429974862149788,4.511596113454981,5.432278291072549,True,stock,True,True,alpha/tau target + dynamics
+stock:Refined,10,alpha_obs;stocks_obs,0.7172423076821897,4.062305114909808,1.7381131260232152,116.29021249551968,True,stock,True,True,alpha/tau target + dynamics
+stock:Scrap,10,alpha_obs;stocks_obs,0.4879196931195739,0.3802210163992505,1.6495951400967854,19.77766337261056,True,stock,True,True,alpha/tau target + dynamics
+flow:direct_reuse_recycling,10,alpha_obs;flows_obs,1.2174714536995586,13.099690928587648,0.3470968164856582,1.1649031164513133,True,flow,True,True,alpha/tau target + dynamics
+flow:concentrate_production,10,cp_obs;flows_obs,0.0,0.0,0.2867826559341164,9.740416609389314,True,flow,False,True,dynamics only
+flow:waelz_input,10,alpha_obs;flows_obs,0.165339905352944,3.826289249333559,0.225837123171873,0.2561773558780658,True,flow,True,True,alpha/tau target + dynamics
+tau:tau_olds,10,tau_sup_obs,0.0513559871691793,0.0650730836799766,0.0571051355542575,0.0976148522958908,True,tau,True,True,alpha/tau target + dynamics
+tau:frac_fu_new,10,tau_sup_obs,0.003942353999939,0.0263881792685722,0.0203870493877449,0.0327900884414873,True,tau,True,True,alpha/tau target + dynamics
+tau:frac_fu_loss,10,tau_sup_obs,5.547111058490373e-06,4.550435207306691e-06,0.0162581306310745,0.1297116387608525,True,tau,True,True,alpha/tau target + dynamics
+tau:tau_ref,10,tau_sup_obs,2.025851905784748e-06,0.0,0.015974037380035,0.0561673199125039,True,tau,True,True,alpha/tau target + dynamics
+stock:In-Use,10,stocks_obs,0.0,0.0,0.0090338169317103,0.0039666747785815,True,stock,False,True,dynamics only
+tau:frac_eu_loss,10,tau_sup_obs,1.5026838315890243e-06,4.569601692594461e-07,0.0088073066013336,0.0434838518279434,True,tau,True,True,alpha/tau target + dynamics
+tau:tau_diss,10,tau_sup_obs,8.623354805159522e-05,0.0,0.005192930026709,0.124344080571916,True,tau,True,True,alpha/tau target + dynamics
+tau:frac_eu_new,10,tau_sup_obs,0.0024062555610226,0.0048857361554475,0.0029078484427316,0.0018961366694441,True,tau,True,True,alpha/tau target + dynamics
+tau:tau_waelz,10,tau_sup_obs,4.918123710062616e-06,0.0,0.0,0.0,True,tau,True,False,target only
+flow:end_of_life,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:old_scrap_recovery,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:waelz_recycling,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:waelz_losses,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:primary_refining,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:refinery_losses,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:total_products_into_use,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:inuse_inflow,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:dissipative_use,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:first_use_new_scrap,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:first_use_losses,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:end_use_new_scrap,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none
+flow:end_use_losses,10,flows_obs,0.0,0.0,0.0,0.0,False,flow,False,False,none

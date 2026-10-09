@@ -1,0 +1,54 @@
+{
+  "do_stage_B": true,
+  "exog_detrend": false,
+  "exog_diff_pad": "edge",
+  "exog_feature_orders": [
+    0,
+    1
+  ],
+  "exog_log1p": true,
+  "exog_pca_components": null,
+  "extra_exog_cols": [
+    "Precious metal index",
+    "Full metal real index",
+    "World Stock Market Capitalisation (% of GDP)",
+    "China Total Manufacturing Output",
+    "Population"
+  ],
+  "gam_smooth_features": {
+    "alpha_cc": [],
+    "alpha_dr": [],
+    "alpha_refc": [],
+    "alpha_win": [],
+    "frac_eu_new": [],
+    "frac_fu_new": [],
+    "tau_olds": []
+  },
+  "learn_cp": false,
+  "n_cv_splits": 5,
+  "pin_frac_eu_loss": true,
+  "pin_frac_eu_new": false,
+  "pin_frac_fu_loss": true,
+  "pin_frac_fu_new": false,
+  "pin_tau_diss": true,
+  "pin_tau_olds": false,
+  "pin_tau_ref": true,
+  "pin_tau_waelz": true,
+  "regressor_kinds": "gam",
+  "stageB_steps": 700,
+  "stock_log_scale": 1.0,
+  "stock_norm_mode": "tanh_log",
+  "stock_ref_mode": "mean",
+  "stock_term_weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "trainval_frac": 0.7,
+  "use_stock_input": false,
+  "use_time_input": false,
+  "val_frac": 0.2,
+  "verbose": false,
+  "xlsx_path": "zinc_dataset.xlsx"
+}

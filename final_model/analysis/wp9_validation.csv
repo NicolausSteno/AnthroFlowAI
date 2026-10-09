@@ -1,0 +1,8 @@
+check,quantity,value,tolerance,passes
+"forward integrator vs the fit's own, stocks",max relative gap,0.0,0.0,True
+"forward integrator vs the fit's own, flow integrals",max relative gap,0.0,0.0,True
+JAX preprocess_exog vs the core's NumPy version,max absolute gap,8.881784197001252e-16,1e-12,True
+level-shift dS vs WP-8c (35 shared seeds),max relative gap,6.042662806392746e-15,1e-06,True
+Ch1 equations vs Ch1 Tables tab:calibration / tab:steady_state_stability,max absolute gap,0.05588063157895107,0.1,True
+closed-form chi_z vs central difference,max absolute gap,1.5598044811326872e-07,1e-05,True
+ch1_params_jacobian chain rule vs a central difference of the solver (best step),max relative gap,0.009763644774829066,0.05,True
