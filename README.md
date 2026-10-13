@@ -113,3 +113,11 @@ documentation: CC BY-NC 4.0, the licence of the thesis. Research, teaching and
 other non-commercial use is free; commercial use needs a separate licence from
 the author. Third-party data stay under their owners' terms. See
 [`LICENSE`](LICENSE).
+
+## Citation
+
+Gambaro, N. (2026). NicolausSteno/AnthroFlowAI: AI-UDE model and analysis for
+the global anthropogenic zinc cycle (Version v1.0.1). Zenodo.
+<https://doi.org/10.5281/zenodo.23271345>
+
+Please also cite the thesis chapter.
