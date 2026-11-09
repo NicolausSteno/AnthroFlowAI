@@ -1,0 +1,7 @@
+quantity,value
+"world GDP, trend growth g_Y (/yr)",0.030820457873275933
+"population, trend growth n (/yr)",0.014178087582399204
+"GDP per capita, trend growth g_I (/yr)",0.01664237029087666
+"macro chapter n (calibration, /yr)",0.01
+macro chapter eta*delta (/yr),0.02
+sample,1981-2019

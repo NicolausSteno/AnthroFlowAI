@@ -1,0 +1,12 @@
+check,published,recomputed
+Ch2 CU_GAMMA eigenvalues vs tab:steady_state_stability,-0.0154 -0.00277,-0.0154 -0.00277
+"Ch2 CU_GAMMA eigenvalues at n = 0 (aggregate frame, stationary population)",diagnostic,-0.00539 +0.00723
+Ch2 ZN_GAMMA eigenvalues vs tab:steady_state_stability,-0.0222 -0.00584,-0.0222 -0.00584
+"Ch2 ZN_GAMMA eigenvalues at n = 0 (aggregate frame, stationary population)",diagnostic,-0.01223 +0.00416
+Ch2 CU_BASE eigenvalues vs tab:steady_state_stability,-0.01 -0.0051,-0.01 -0.0051
+"Ch2 CU_BASE eigenvalues at n = 0 (aggregate frame, stationary population)",diagnostic,+0.00000 +0.00490
+Ch2 ZN_BASE eigenvalues vs tab:steady_state_stability,-0.0134 -0.01,-0.0134 -0.01
+"Ch2 ZN_BASE eigenvalues at n = 0 (aggregate frame, stationary population)",diagnostic,-0.00338 +0.00000
+Ch4 basic spectrum vs tab:eigen (dissipative),-14.6 -10.9 -9.33 -3.93 -0.0194 -0.0188 -0.0100 -0.0100,-14.6 -10.9 -9.33 -3.93 -0.0194 -0.0188 -0.01 -0.01
+Ch4 SOA spectrum vs tab:eigensoa,-14.6 -9.33 -3.93 -0.0600+-0.334i -0.0200 -0.0194 -0.0100 -0.0100,-14.6 -9.33 -3.93 -0.06+0.334i -0.06-0.334i -0.02 -0.0194 -0.01 -0.01
+Ch5 max |Im lambda| over 35 seeds x 40 yr,0 (wp2b),0

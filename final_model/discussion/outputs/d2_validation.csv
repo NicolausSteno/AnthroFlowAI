@@ -1,0 +1,24 @@
+check,expected,got,tol,ok
+"headroom Copper, gamma=0 (Ch2 fig caption)",0.141,0.141,0.0005,True
+"Gamma<Gamma_M <=> psi+chi*<1, Copper, gamma=0",1.0,1.0,0.0,True
+"equivalence on rho grid, Copper, gamma=0",1.0,1.0,0.0,True
+"next-generation radius = Gamma/Gamma_M at gamma=0, Copper, gamma=0",0.8589940965653408,0.8589940965653406,1e-12,True
+"J11 = -(n + lam (1 - r_U)) at gamma=0, Copper, gamma=0",-0.005104413704334661,-0.005104413704334666,1e-12,True
+"headroom Copper, gamma=0.002 (Ch2 fig caption)",0.098,0.098,0.0005,True
+"Gamma<Gamma_M <=> psi+chi*<1, Copper, gamma=0.002",1.0,1.0,0.0,True
+"equivalence on rho grid, Copper, gamma=0.002",1.0,1.0,0.0,True
+"headroom Zinc, gamma=0 (Ch2 fig caption)",0.282,0.282,0.0005,True
+"Gamma<Gamma_M <=> psi+chi*<1, Zinc, gamma=0",1.0,1.0,0.0,True
+"equivalence on rho grid, Zinc, gamma=0",1.0,1.0,0.0,True
+"next-generation radius = Gamma/Gamma_M at gamma=0, Zinc, gamma=0",0.7182143307187766,0.7182143307187767,1e-12,True
+"J11 = -(n + lam (1 - r_U)) at gamma=0, Zinc, gamma=0",-0.01338481929085811,-0.013384819290858108,1e-12,True
+"headroom Zinc, gamma=0.003 (Ch2 fig caption)",0.21,0.21,0.0005,True
+"Gamma<Gamma_M <=> psi+chi*<1, Zinc, gamma=0.003",1.0,1.0,0.0,True
+"equivalence on rho grid, Zinc, gamma=0.003",1.0,1.0,0.0,True
+"ds_dom/dtau_olds recomputed vs WP-2c (max abs diff, all nodes)",0.0,4.0592529337857286e-16,1e-09,True
+dominant mode is the 44-yr in-use cohort at every node,1.0,1.0,0.0,True
+r_U from absorption vs finite-difference consistency (dr_U/dtau = P(scrap->use)),0.0,7.19944104332626e-11,1e-05,True
+copper basic eigenvalues reproduce tab:eigen (in-use -0.0194),-0.0194,-0.0194,6e-05,True
+copper rebuild at c0 equals the published matrix,0.0,4.440892098500626e-16,1e-12,True
+tab:sens alpha13 row: largest |dlambda/dalpha13| = 1.01,1.01,1.01,0.005,True
+copper: s_inuse = -(d4 + a9 (1 - r_U)) (rel),0.0,0.0042457279458605335,0.02,True

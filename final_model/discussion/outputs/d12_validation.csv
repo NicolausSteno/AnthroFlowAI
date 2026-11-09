@@ -1,0 +1,5 @@
+check,published,reproduced
+"basic eigenvalues (tab:eigen, dissipative)",-14.6 -10.9 -9.33 -3.93 -0.0194 -0.0188 -0.0100 -0.0100,-14.61 -10.91 -9.331 -3.932 -0.01941 -0.01881 -0.01 -0.01
+tau_FD by start stock s1..s7 (tab:expected_times_by_stock),57.2 54.3 52.9 52.8 29.2 78.6 100.0,57.2 54.3 52.9 52.8 29.2 78.6 100.0
+upsilon_1 (tab:dynamic_circularity_indicators),1.39,1.394
+SOA dominant pair (tab:eigensoa),-0.0600 +/- 0.334i,-0.0600 +/- 0.3341i

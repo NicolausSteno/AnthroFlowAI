@@ -1,0 +1,2 @@
+quantity,share_1981,share_2019,mean,log_trend_per_yr,trend_lo,trend_hi,note
+direct-reuse share of secondary supply,0.8138275941375521,0.742402013115435,0.7665463012687823,-0.0022176170981542667,-0.0031460727080386327,-0.0013407665967849099,"the two old-scrap re-entry routes differ physically in quality (direct re-use bypasses remelting, Waelz does not), so their mix is the closest observable analogue of Ch1's pi; assigning pi values to them would be assumption, not measurement"

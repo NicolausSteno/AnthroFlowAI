@@ -1,0 +1,9 @@
+quantity,published_gamma0,current_calibration,ude_measured,note
+chi* (Ch2 steady state),0.2962585334210526,0.3185768018319837,0.2403314045649537,measured chi gap: -18.8% -> -24.7%
+rho reference,0.363,0.345,0.3666523726798366,"gap +1.0% -> +6.3%; UDE rho is total recovery, commensurable with rho_0"
+H2 predicted dchi/dg,-4.869084916286903,-8.082720182961411,-0.38,calibration splits -4.628 conventional + -3.455 urban-mining term (no UDE analogue)
+H2 net (learn_cp) / prediction,0.0780434119620536,0.047013875452604444,,vs conventional term only: 0.082
+H2 dilution channel / prediction,0.0921512850796051,0.0555125529575321,-0.4486924321975596,anchor_v4 arm
+H3 predicted slope,1.4415702382223916,1.4887851724898986,1.243057239055798,measured outside both; verdict unchanged
+H11 long-run dln s/drho,1.1765219960902356,1.130936696862037,0.7596600190489176,short-run 0.738 unchanged; verdict tested on short run
+chi* at measured coefficients,0.2978672290451657,0.3195339349230541,0.2403314045649537,calibration column applies the rho offset 0.018; without it 0.333 (double count)

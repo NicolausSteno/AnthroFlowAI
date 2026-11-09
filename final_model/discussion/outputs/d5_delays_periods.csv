@@ -1,0 +1,12 @@
+chapter,class,quantity,value_yr,lo_yr,hi_yr,source
+Ch3,delay,"mining lead time tau_E, fitted",8.0,2.0,32.0,tab:params; sweep 2-32 yr (Winton Group 2017 range)
+Ch3,delay,recycling lead time tau_R,2.0,,,"tab:params, literature"
+Ch3,adjustment,price damping to cost anchor 1/phi,1.4662649100813046,,,"coefficient, not an eigenvalue"
+Ch3,adjustment,excess-demand gain on price 1/c,0.11186082723318956,,,"coefficient, not an eigenvalue"
+Ch3,period,"band-pass price period, fitted model",20.6,,,Ch3 l.719
+Ch3,period,"band-pass price period, data",23.2,,,Ch3 l.719
+Ch4,period,SOA oscillation period 2 pi / 0.334,18.81193205742391,,,tab:eigensoa
+Ch4,period,"zinc refined stocks, about 3 cycles 1990-2019 (Rostek 2022)",9.666666666666666,,,"observed, approximate"
+Ch5,period,zinc UDE: no complex eigenvalue,,,,"wp2b, 8 400 eigenvalues"
+Ch4,horizon,"copper u/s to 90 / 95 % of fixed point, constant input from 1994",70.0,70.0,105.0,D12
+Ch5,horizon,"zinc in-use stock to 90 / 95 % of S*(2019), A, b frozen at 2019",72.5,72.5,107.8,WP-2g

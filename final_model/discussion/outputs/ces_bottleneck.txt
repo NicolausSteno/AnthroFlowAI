@@ -1,0 +1,8 @@
+case | alpha | eps | gP-eta*delta | gM | outcome | late g_k | late g_s | predicted
+| 1.0 | 1.0 | 0.01 | 0.0 | ln k>60 at t=351 (explosive) | - | - | 0.0250
+| 1.0 | 0.5 | 0.01 | 0.0 | ln k>60 at t=2043 (explosive) | - | - | 0.0250
+| 1.0 | 0.5 | 0.0 | 0.0 | bounded growth | 0.0000 | 0.0000 | 0.0000
+| 1.0 | 0.5 | 0.01 | 0.005 | ln k>60 at t=1377 (explosive) | - | - | 0.0375
+| 1.05 | 0.5 | 0.01 | 0.0 | ln k>60 at t=2016 (explosive) | - | - | 0.0250
+| 0.3 | 0.5 | 0.01 | 0.0 | bounded growth | -0.0000 | 0.0100 | 0.0250
+| 1.0 | 0.8 | 0.01 | 0.0 | ln k>60 at t=1116 (explosive) | - | - | 0.0250

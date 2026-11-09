@@ -1,0 +1,10 @@
+check,published,reproduced
+H8 elasticity of throughput to GDP (median),0.8708650564499938,0.8708650564499938
+H8 elasticity of inuse to GDP (median),0.7112111364662481,0.7112111364662481
+H8 elasticity of discard to GDP (median),1.0730495459554164,1.0730495459554164
+H8 u/s mean (median),14.004803124178723,14.004803124178725
+H8 trend ln(u/s) (median),-0.0049774914445686,-0.004977491444568674
+H7 elasticity of in-use (WP-9 regresses on 1980-2019 stocks),0.7124786810628759,
+"chi_I(0), n=0.01, macro calibration (Ch2 tab: 0.319)",0.319,0.3185768018319837
+"chi_I(0), n=0.01, no urban mining (Ch2 tab: 0.296)",0.2963,0.29625853342105263
+WP-9 lambda/sigma/kappa/rho medians,0.0362/0.1798/0.9832/0.3667,0.0362/0.1798/0.9832/0.3667

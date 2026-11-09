@@ -1,0 +1,40 @@
+chapter,model,case,re,im,timescale_yr,period_yr,compartment,participation,second,second_participation,group,ts_lo,ts_hi,ts_1980,ts_2019
+Ch2,"macro (per capita, n = 0.01)","copper, calibration",-0.002765265698869453,0.0,361.6289025712207,,in use (u),0.7147955013001409,discard (d),0.2852044986998591,in use,,,,
+Ch2,"macro (per capita, n = 0.01)","copper, calibration",-0.015394882381123043,0.0,64.95665086900462,,discard (d),0.7147955013001409,in use (u),0.28520449869985914,sinks,,,,
+Ch2,"macro (per capita, n = 0.01)","zinc, calibration",-0.0058439040847021615,0.0,171.11848269682298,,discard (d),0.5830650530662558,in use (u),0.41693494693374417,sinks,,,,
+Ch2,"macro (per capita, n = 0.01)","zinc, calibration",-0.02222934281378975,0.0,44.98558542089063,,in use (u),0.5830650530662558,discard (d),0.4169349469337442,in use,,,,
+Ch2,"macro (per capita, n = 0.01)","copper, gamma = 0",-0.005104413704334666,0.0,195.90888551035752,,in use (u),1.0,discard (d),0.0,in use,,,,
+Ch2,"macro (per capita, n = 0.01)","copper, gamma = 0",-0.01,0.0,100.0,,discard (d),1.0,in use (u),0.0,sinks,,,,
+Ch2,"macro (per capita, n = 0.01)","zinc, gamma = 0",-0.01,0.0,100.0,,discard (d),1.0,in use (u),0.0,sinks,,,,
+Ch2,"macro (per capita, n = 0.01)","zinc, gamma = 0",-0.013384819290858108,0.0,74.71150549511002,,in use (u),1.0,discard (d),0.0,in use,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-0.0001,0.0,10000.0,,slag (s7),1.0,mining (s1),0.0,sinks,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-0.0001,0.0,10000.0,,landfill (s8),1.0,mining (s1),0.0,sinks,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-0.005384050026562055,0.0,185.73378684568846,,tailings (s6),0.9999342883741393,mining (s1),6.571162586074305e-05,sinks,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-0.027260700000000002,0.0,36.682843800782805,,in use (s4),1.0,mining (s1),0.0,in use,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-1.8,0.0,0.5555555555555556,,waste management (s5),1.0,mining (s1),0.0,scrap / waste management,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-9.555371881958584,0.0,0.10465317439796262,,refining (s2),0.9834506292743462,fabrication (s3),0.016549370725653566,upstream,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-10.900715949973439,0.0,0.09173709365415,,mining (s1),0.9999342883741392,tailings (s6),6.57116258607233e-05,upstream,,,,
+Ch3,simulation (fitted material block),fitted 1960-2020,-127.06002811804137,0.0,0.007870295755569797,,fabrication (s3),0.9834506292743465,refining (s2),0.016549370725653573,upstream,,,,
+Ch4,copper basic,1994 coefficients,-0.01,0.0,100.0,,slag (s7),1.0,mining (s1),0.0,sinks,,,,
+Ch4,copper basic,1994 coefficients,-0.01,0.0,100.0,,landfill (s8),1.0,mining (s1),0.0,sinks,,,,
+Ch4,copper basic,1994 coefficients,-0.018806375090947982,0.0,53.173458211057756,,tailings (s6),0.9998904165926462,mining (s1),0.00010958340735378758,sinks,,,,
+Ch4,copper basic,1994 coefficients,-0.019411524950626865,0.0,51.51578778810505,,in use (s4),0.9957474834123007,waste management (s5),0.0027099878209179253,in use,,,,
+Ch4,copper basic,1994 coefficients,-3.9319875916020375,0.0,0.25432430207455536,,waste management (s5),0.989096659215296,in use (s4),0.005573532177440424,scrap / waste management,,,,
+Ch4,copper basic,1994 coefficients,-9.331167518263026,0.0,0.10716772558662065,,refining (s2),0.5794267506172525,fabrication (s3),0.4161382656143917,upstream,,,,
+Ch4,copper basic,1994 coefficients,-10.911193624909053,0.0,0.09164900141787514,,mining (s1),0.9998904165926462,tailings (s6),0.00010958340735378758,upstream,,,,
+Ch4,copper basic,1994 coefficients,-14.607433365184317,0.0,0.06845829619756626,,fabrication (s3),0.5821390043430331,refining (s2),0.417231027373378,upstream,,,,
+Ch4,copper SOA,1994 coefficients,-0.01,0.0,100.0,,slag (s7),1.0,SOA production (y),0.0,sinks,,,,
+Ch4,copper SOA,1994 coefficients,-0.01,0.0,100.0,,landfill (s8),1.0,SOA production (y),0.0,sinks,,,,
+Ch4,copper SOA,1994 coefficients,-0.019411524950626865,0.0,51.51578778810505,,in use (s4),0.9957474834123007,waste management (s5),0.0027099878209179257,in use,,,,
+Ch4,copper SOA,1994 coefficients,-0.02,0.0,50.0,,tailings (s6),1.0,SOA production (y),0.0,sinks,,,,
+Ch4,copper SOA,1994 coefficients,-0.05999999999999998,0.3340658617698013,16.66666666666667,18.808223246436402,SOA production (y),0.5,SOA lag (dy),0.5,investment (SOA),,,,
+Ch4,copper SOA,1994 coefficients,-0.05999999999999998,-0.3340658617698013,16.66666666666667,18.808223246436402,SOA production (y),0.5,SOA lag (dy),0.5,investment (SOA),,,,
+Ch4,copper SOA,1994 coefficients,-3.9319875916020375,0.0,0.25432430207455536,,waste management (s5),0.989096659215296,in use (s4),0.005573532177440424,scrap / waste management,,,,
+Ch4,copper SOA,1994 coefficients,-9.331167518263026,0.0,0.10716772558662065,,refining (s2),0.5794267506172525,fabrication (s3),0.4161382656143917,upstream,,,,
+Ch4,copper SOA,1994 coefficients,-14.607433365184317,0.0,0.06845829619756626,,fabrication (s3),0.5821390043430331,refining (s2),0.41723102737337797,upstream,,,,
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-3.8694447682402626,0.0,0.2584350106784901,,concentrate,,,,upstream,0.1317427233690198,0.4558433335782582,0.4248977964053823,0.1511614034316581
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-0.020344605565035714,0.0,49.153078775761685,,"in use, long",,,,in use,46.13158500520916,56.14743896912499,47.69143745146883,50.56208241924691
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-0.046559882029610686,0.0,21.47771764894142,,"in use, medium",,,,in use,20.758615150868053,22.669982861993983,20.854497795288147,21.53130793262374
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-0.09719702223229772,0.0,10.28838103301182,,"in use, short",,,,in use,10.13701242983215,10.495672019141557,10.168522380641193,10.297838192245283
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-8.16078259187959,0.0,0.1225372675648844,,refined,,,,upstream,0.0529133130690949,0.2612078568964843,0.1870377887278236,0.0698899624946605
+Ch5,"zinc UDE (frozen A(t), 35 seeds)",1980-2019,-0.5261046810958209,0.0,1.9007624070500664,,scrap,,,,scrap / waste management,1.0010293389248353,6.097974792263915,2.9195664551689573,1.3077596915449727

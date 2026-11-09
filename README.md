@@ -2,7 +2,9 @@
 
 Code and results for the PhD thesis chapter on forecasting the global
 anthropogenic zinc cycle with universal differential equations (Chapter 5; Appendix K),
-together with the experiments that may be taken up in the thesis discussion (Chapter 6).
+together with the computations and figures of the thesis Discussion (Chapter 6), which
+compares this model with the other three core chapters (see
+[Chapter 6 (Discussion)](#chapter-6-discussion)).
 
 The model is a mass-conserving, continuous-time system of ODEs whose transfer
 coefficients are produced by a neural network from exogenous drivers
@@ -53,6 +55,8 @@ produced the masked copies.
 | `final_model/masked_results/` | masked copies of the result files that contain observed values |
 | `final_model/reproducibility/` | figure builder, masking and restoration scripts |
 | `final_model/PhD_Thesis/figures/ch4/` | the ten figures as printed in the chapter |
+| `final_model/discussion/` | scripts and outputs of the thesis Discussion, Chapter 6 (section below) |
+| `final_model/PhD_Thesis/figures/discussion/` | the three Discussion figures as printed |
 
 | Driver | Analysis |
 |---|---|
@@ -88,6 +92,42 @@ produced the masked copies.
 | `run_wp4a.py` | attenuation and aliasing of period-integral observations (Ch. 6) |
 | `run_wp11e.py` | sub-annual dynamics with market relevance (Ch. 6) |
 | `run_wp11h.py` | temporal aggregation bias, continuous vs discrete time (Ch. 6) |
+
+## Chapter 6 (Discussion)
+
+`final_model/discussion/` holds the cross-chapter computations of the thesis Discussion.
+Two of them reuse the WP-9 drivers listed above; the others combine the zinc model with the
+code of the other chapters, which is not copied here but read from sibling clones:
+
+- Chapter 2, [Macro-Materials](https://github.com/NicolausSteno/Macro-Materials) (`mm_core.py`, `mm_growth.py`);
+- Chapter 3, [Simulating-Resources](https://github.com/NicolausSteno/Simulating-Resources) (`model_v2.R`, `gloser_data_v2.R`, R 4.3 with its `renv` library);
+- Chapter 4 (copper matrix): its 1994 coefficients are built inside `d12_copper_ratios.py` and checked against the chapter's tables.
+
+Clone both repositories next to `AnthroFlowAI/`, or set `MACRO_MATERIALS_DIR` and
+`SIMULATING_RESOURCES_DIR`. Every script runs from `final_model/` and writes to
+`discussion/outputs/`; `bash discussion/run_discussion.sh` runs them all.
+
+| Script | Thesis section | What it computes |
+|---|---|---|
+| `d3_wp9_calibration.py` | 6.1, Figure 6.1 | WP-9 re-scored at the current Chapter 2 calibration (gamma = 0.003, rho = 0.345), in a scratch copy; verdicts unchanged (`outputs/d3_calibration/`, `d3_calibration_deltas.csv`) |
+| `d12_copper_ratios.py` | 6.1, 6.2 | Chapter 4 copper matrix mapped onto the Chapter 2 parameters; compositional drift of rho; copper saturation and horizons |
+| `d14_growth_path.py` | 6.1 | observed zinc growth path against the intensity-sustainable path of Chapter 2 |
+| `chi_growth_check.py` | 6.1.6 | growth-adjusted circularity chi(g) at the copper and zinc calibrations |
+| `ces_bottleneck.py`, `ces_bottleneck_path.py` | 6.1.6 | numerical check of the CES bottleneck growth rate |
+| `d5_timescale_ladder.py` | 6.2, Figure 6.2 | relaxation times of all four models on one axis |
+| `d5b_filling_checks.py` | 6.2 | saturation as the lag of a growing input; time in use per unit of input |
+| `d2_stability.py` | 6.3 | collection and the in-use mode in the three models; viability headroom on the measured zinc coefficients |
+| `d16_cycles.R`, `d16_summarise.R` | 6.4, Figure 6.3 | secondary share of supply and the copper price cycle in the fitted Chapter 3 model (128 lead-time runs plus variants) |
+| `figures/make_thdisc_*.py` | Figures 6.1-6.3 | the three Discussion figures, written to `PhD_Thesis/figures/discussion/` |
+
+The copper and macro computations (D5, D12, D16, CES, chi(g)) need no zinc data. D2, D3, D5b
+and D14 need the observed record, like the WP-9 drivers they build on: `zinc_dataset.xlsx`,
+the restored analysis files (`restore_observed.py --xlsx`) and the WP-9 caches
+(`python run_wp9.py --all`); run them with `WITH_ZINC_RECORD=1 bash discussion/run_discussion.sh`.
+Their year-by-year, per-seed tables (`d2_*_by_seed_year.csv`, `d14_per_seed.csv`) contain the
+fabrication-loss share, which is pinned to observed transfer shares, and are not published; every
+summary the thesis quotes is. All published outputs were regenerated with these scripts and match
+the values printed in the thesis.
 
 ## Environment
 

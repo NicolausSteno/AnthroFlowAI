@@ -1,0 +1,12 @@
+copper tau_FD(s1) 57.21  upsilon1 1.394  time-in-use(s1) 46.47
+copper, Gloser-consistent in-use dissipation: time-in-use 94.2
+zinc time-in-use per kg concentrate 1980: median 33.10 IQR 31.28-34.64
+zinc time-in-use per kg concentrate 2019: median 33.78 IQR 30.90-37.36
+Little's law check 2019 S*_iu/b = 33.78
+g=0.015: sat 1980-A 0.606  2019-A 0.597
+g=0.020: sat 1980-A 0.536  2019-A 0.528
+g=0.025: sat 1980-A 0.481  2019-A 0.474
+g=0.030: sat 1980-A 0.436  2019-A 0.430
+1980: implied g 2.09 %/yr IQR 2.02-2.20
+2019: implied g 1.80 %/yr IQR 1.66-1.93
+concentrate input trend 1981-2019: 2.36 %/yr

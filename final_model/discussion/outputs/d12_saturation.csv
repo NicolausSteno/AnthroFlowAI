@@ -1,0 +1,8 @@
+cycle,measure,u_over_s_observed,reference_u_over_s,saturation
+"Zn, UDE 1980-2019 (WP-9)","u/s vs macro B_U at measured coefficients, n = 0.01",14.004803124178723,17.427134344852817,0.8052775505999887
+"Cu, copper matrix, 1994 stocks",u/s vs the matrix own fixed point (n = 0); convention-free,18.487394957983195,31.69486972871341,0.5832929782082323
+"Cu, copper matrix, 1994 stocks","u/s vs macro B_U at matrix coefficients, n = 0.01, convention B",18.487394957983195,21.129913152475606,0.8749394673123486
+"Cu, copper matrix, 1994 stocks","u/s vs macro B_U at matrix coefficients, n = 0.01, convention A",18.487394957983195,23.771152296535053,0.77772397094431
+"Cu, matrix with kappa = 0.994 (alpha18 matched to Gloser)",u/s vs own fixed point (n = 0),18.487394957983195,47.25705076551169,0.3912092409176609
+"Cu, matrix with kappa = 0.994 (alpha18 matched to Gloser)","u/s vs macro B_U, n = 0.01, convention B",18.487394957983195,31.504700510341127,0.5868138613764914
+"Cu, macro chapter data (Gloser 2000-10)","2010 U / window-mean S vs macro Cu B_U, n = 0.01 (approximate)",15.772224498156493,22.790607734806628,0.6920493161781109
