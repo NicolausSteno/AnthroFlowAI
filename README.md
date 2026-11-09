@@ -157,7 +157,7 @@ the author. Third-party data stay under their owners' terms. See
 ## Citation
 
 Gambaro, N. (2026). NicolausSteno/AnthroFlowAI: AI-UDE model and analysis for
-the global anthropogenic zinc cycle (Version v1.0.1). Zenodo.
-<https://doi.org/10.5281/zenodo.23271345>
+the global anthropogenic zinc cycle (Version v1.1.0). Zenodo.
+[<https://doi.org/10.5281/zenodo.23271345>](https://doi.org/10.5281/zenodo.24093155)
 
 Please also cite the thesis chapter.
